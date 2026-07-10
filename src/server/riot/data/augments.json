@@ -1,0 +1,1358 @@
+[
+  {
+    "id": 1,
+    "name": "Accelerating Sorcery",
+    "rarity": "Prismatic",
+    "description": "Using Abilities grant you stacking Ability Haste. This resets each round."
+  },
+  {
+    "id": 2,
+    "name": "Apex Inventor",
+    "rarity": "Gold",
+    "description": "Gain X Item Haste (equivalent to Xi:cooldown% of all Item Abilities."
+  },
+  {
+    "id": 3,
+    "name": "Null Augment",
+    "rarity": "Silver",
+    "description": "Null"
+  },
+  {
+    "id": 4,
+    "name": "Back To Basics",
+    "rarity": "Prismatic",
+    "description": "Gain increased Ability Damage, Healing, Shielding, and Ability Haste, but you cannot use your Ultimate Ability."
+  },
+  {
+    "id": 5,
+    "name": "Banner of Command",
+    "rarity": "Gold",
+    "description": "Gain the Banner of Command Summoner Spell. Banner of Command empowers your ally for a brief duration."
+  },
+  {
+    "id": 6,
+    "name": "Blade Waltz",
+    "rarity": "Prismatic",
+    "description": "Gain the Blade Waltz Summoner Spell. Blade Waltz makes you untargetable while you dash at and damage enemies X times."
+  },
+  {
+    "id": 7,
+    "name": "Blunt Force",
+    "rarity": "Silver",
+    "description": "Gain X% Attack Damage."
+  },
+  {
+    "id": 9,
+    "name": "Buff Buddies",
+    "rarity": "Silver",
+    "description": "You gain Crest of Cinders and Crest of Insight. Granting yourself Ability Haste and resource regeneration and causing your Attacks to Burn and Slow enemy champions."
+  },
+  {
+    "id": 10,
+    "name": "Cannon Fodder",
+    "rarity": "Silver",
+    "description": "You enter combat launching from a cannon."
+  },
+  {
+    "id": 11,
+    "name": "Can't Touch This",
+    "rarity": "Prismatic",
+    "description": "Casting your Ultimate makes you Invulnerable for a short duration."
+  },
+  {
+    "id": 12,
+    "name": "Castle",
+    "rarity": "Silver",
+    "description": "Gain the Castle Summoner Spell. Castle: Swap places with your ally, gaining Move Speed and a Shield."
+  },
+  {
+    "id": 13,
+    "name": "Celestial Body",
+    "rarity": "Gold",
+    "description": "Gain X Health, but you deal X% less damage."
+  },
+  {
+    "id": 14,
+    "name": "Chauffeur",
+    "rarity": "Prismatic",
+    "description": "You are attached to your ally and can't move on your own. Your bonus Move Speed is also granted to your ally, and you gain Ability Haste and Attack Speed."
+  },
+  {
+    "id": 15,
+    "name": "Circle of Death",
+    "rarity": "Prismatic",
+    "description": "Healing and Health Regen you do deals a portion of the value as magic damage to the nearest enemy champion."
+  },
+  {
+    "id": 16,
+    "name": "Combo Master",
+    "rarity": "Gold",
+    "description": "Gain the Electrocute and Phase Rush Keystone Runes."
+  },
+  {
+    "id": 17,
+    "name": "Contract Killer",
+    "rarity": "Silver",
+    "description": "Each round, mark an opposing champion. That champion takes Xi:goldCoins%X gold when killed."
+  },
+  {
+    "id": 18,
+    "name": "Courage of the Colossus",
+    "rarity": "Prismatic",
+    "description": "Gain X Shield after Immobilizing or Grounding an enemy champion."
+  },
+  {
+    "id": 19,
+    "name": "Dashing",
+    "rarity": "Prismatic",
+    "description": "Your dash, leap, blink, or teleport Abilities gain X Ability Haste."
+  },
+  {
+    "id": 20,
+    "name": "Dawnbringer's Resolve",
+    "rarity": "Gold",
+    "description": "Upon dropping below X% Health, heal for X over X seconds."
+  },
+  {
+    "id": 21,
+    "name": "Defensive Maneuvers",
+    "rarity": "Gold",
+    "description": "Gain the Defensive Maneuvers Summoner Spell. Defensive Maneuvers Casts both Summoner Barrier and Heal on your team."
+  },
+  {
+    "id": 22,
+    "name": "Deft",
+    "rarity": "Silver",
+    "description": "Gain X% Attack Speed."
+  },
+  {
+    "id": 23,
+    "name": "Demon's Dance",
+    "rarity": "Gold",
+    "description": "Gain the Fleet Footwork and Grasp of the Undying Keystone Runes."
+  },
+  {
+    "id": 24,
+    "name": "Die Another Day",
+    "rarity": "Gold",
+    "description": "Gain the Die Another Day Summoner Spell. Die Another Day creates a zone where no unit can die for 4 seconds."
+  },
+  {
+    "id": 25,
+    "name": "Dive Bomber",
+    "rarity": "Silver",
+    "description": "Your team's first death each round explodes, dealing massive damage true damage."
+  },
+  {
+    "id": 26,
+    "name": "Don't Blink",
+    "rarity": "Silver",
+    "description": "Gain X% bonus damage per 10 Move Speed you have more than the target."
+  },
+  {
+    "id": 27,
+    "name": "Earthwake",
+    "rarity": "Prismatic",
+    "description": "Your dash, blink, or teleport Abilities leave behind a trail that detonates after 1 second."
+  },
+  {
+    "id": 28,
+    "name": "Erosion",
+    "rarity": "Silver",
+    "description": "Damaging enemies adds a stacking Armor and Magic Resist shred for Xs."
+  },
+  {
+    "id": 29,
+    "name": "Ethereal Weapon",
+    "rarity": "Gold",
+    "description": "Your Abilities apply {{ Item_Keyword_OnHit }} effects."
+  },
+  {
+    "id": 30,
+    "name": "Eureka",
+    "rarity": "Prismatic",
+    "description": "Gain Ability Haste equal to X% Ability Power."
+  },
+  {
+    "id": 32,
+    "name": "Executioner",
+    "rarity": "Silver",
+    "description": "Deal X health. Reset your basic abilities on takedown."
+  },
+  {
+    "id": 33,
+    "name": "Extendo-Arm",
+    "rarity": "Gold",
+    "description": "Autocast fire a Blitzcrank hook every 12 seconds at a nearby enemy champion."
+  },
+  {
+    "id": 34,
+    "name": "Fallen Aegis",
+    "rarity": "Silver",
+    "description": "Start combat with a Black Shield for Xs. Black Shield blocks Magic Damage and Immobilizing effects."
+  },
+  {
+    "id": 35,
+    "name": "Feel the Burn",
+    "rarity": "Prismatic",
+    "description": "Gain the Feel the Burn Summoner Spell. Feel the Burn casts Ignite and Exhaust on all nearby enemy champions."
+  },
+  {
+    "id": 36,
+    "name": "Firebrand",
+    "rarity": "Gold",
+    "description": "Your Attacks apply an infinitely stacking Burn {{ Item_Keyword_OnHit }}, dealing damage over time."
+  },
+  {
+    "id": 37,
+    "name": "First-Aid Kit",
+    "rarity": "Silver",
+    "description": "Gain X% Heal and Shield Power."
+  },
+  {
+    "id": 38,
+    "name": "From Beginning to End",
+    "rarity": "Gold",
+    "description": "Gain the First Strike and Dark Harvest Keystone Runes."
+  },
+  {
+    "id": 39,
+    "name": "Frost Wraith",
+    "rarity": "Silver",
+    "description": "Autocast Root nearby enemies for X seconds every X seconds."
+  },
+  {
+    "id": 41,
+    "name": "Goliath",
+    "rarity": "Prismatic",
+    "description": "Become large, gaining X Adaptive Force."
+  },
+  {
+    "id": 42,
+    "name": "Guilty Pleasure",
+    "rarity": "Silver",
+    "description": "Immobilizing or Grounding enemy champions heals you."
+  },
+  {
+    "id": 43,
+    "name": "Now You See Me",
+    "rarity": "Silver",
+    "description": "Gain the Now You See Me Summoner Spell. Now You See Me teleports you back to the starting position of your last Movement Ability."
+  },
+  {
+    "id": 44,
+    "name": "Ice Cold",
+    "rarity": "Silver",
+    "description": "Your Slowing effects reduce Move Speed by an extra X."
+  },
+  {
+    "id": 45,
+    "name": "Infernal Conduit",
+    "rarity": "Prismatic",
+    "description": "Your Abilities apply an infinitely stacking Burn, dealing magic damage over time. Your Burn effects reduce your basic Ability Cooldowns."
+  },
+  {
+    "id": 46,
+    "name": "Infernal Soul",
+    "rarity": "Silver",
+    "description": "You gain the Infernal Dragon Soul, dealing bonus damage when you hit enemies with Abilities or Attacks."
+  },
+  {
+    "id": 47,
+    "name": "It's Critical",
+    "rarity": "Gold",
+    "description": "Gain X% Crit chance."
+  },
+  {
+    "id": 48,
+    "name": "Jeweled Gauntlet",
+    "rarity": "Prismatic",
+    "description": "Your Abilities can Critically Strike. Gain X% Crit Chance."
+  },
+  {
+    "id": 49,
+    "name": "Juice Box",
+    "rarity": "Silver",
+    "description": "Each round, everyone on your team gains X Juice."
+  },
+  {
+    "id": 50,
+    "name": "Keystone Conjurer",
+    "rarity": "Gold",
+    "description": "Gain the Summon Aery and Arcane Comet Keystone Runes."
+  },
+  {
+    "id": 51,
+    "name": "Light 'em Up!",
+    "rarity": "Silver",
+    "description": "Every 4th Attack deals additional magic damage {{ Item_Keyword_OnHit }}."
+  },
+  {
+    "id": 52,
+    "name": "Lightning Strikes",
+    "rarity": "Gold",
+    "description": "Gain X% total Attack Speed. At X Attacks per second, deal additional magic damage {{ Item_Keyword_OnHit }}."
+  },
+  {
+    "id": 53,
+    "name": "Mad Scientist",
+    "rarity": "Prismatic",
+    "description": "Each Round you'll either grow large (Adaptive Force and Health) or tiny (Ability Haste and Move Speed)."
+  },
+  {
+    "id": 54,
+    "name": "Master of Duality",
+    "rarity": "Prismatic",
+    "description": "Your Attacks grant you Ability Power {{ Item_Keyword_OnHit }} and your Abilities grant you Attack Damage, until the end of the round."
+  },
+  {
+    "id": 56,
+    "name": "Mind to Matter",
+    "rarity": "Silver",
+    "description": "Increase max Health by half of your Mana."
+  },
+  {
+    "id": 57,
+    "name": "Mountain Soul",
+    "rarity": "Silver",
+    "description": "You gain the Mountain Soul, gaining a Shield after being out of combat for a short time."
+  },
+  {
+    "id": 58,
+    "name": "Mystic Punch",
+    "rarity": "Prismatic",
+    "description": "{{ Item_Keyword_OnHit }} reduce the cooldown of your abilities by X seconds ."
+  },
+  {
+    "id": 60,
+    "name": "Ocean Soul",
+    "rarity": "Silver",
+    "description": "Gain the Ocean Soul, granting high Health and Mana regen after damaging enemies."
+  },
+  {
+    "id": 61,
+    "name": "OK Boomerang",
+    "rarity": "Gold",
+    "description": "Autocast throw a boomerang at a nearby enemy every Xs."
+  },
+  {
+    "id": 62,
+    "name": "Omni Soul",
+    "rarity": "Prismatic",
+    "description": "Gain X random Dragon Souls."
+  },
+  {
+    "id": 63,
+    "name": "Outlaw's Grit",
+    "rarity": "Gold",
+    "description": "After using a Dash, Blink, or Teleport Ability you gain Armor and Magic Resist."
+  },
+  {
+    "id": 64,
+    "name": "Perseverance",
+    "rarity": "Gold",
+    "description": "Gain hugely increased Health Regen, further increased at low Health."
+  },
+  {
+    "id": 65,
+    "name": "Phenomenal Evil",
+    "rarity": "Gold",
+    "description": "Permanently gain X Ability Power when you hit an enemy with an Ability. If taken after round X, gain X Ability Power."
+  },
+  {
+    "id": 66,
+    "name": "Quantum Computing",
+    "rarity": "Prismatic",
+    "description": "Periodically Autocast a massive slash around you, dealing physical damage. Enemies hit by the outer edge are Slowed, take additional damage, and heal you."
+  },
+  {
+    "id": 67,
+    "name": "Rabble Rousing",
+    "rarity": "Gold",
+    "description": "Using an Ability restores X Health."
+  },
+  {
+    "id": 68,
+    "name": "Recursion",
+    "rarity": "Gold",
+    "description": "Gain X Ability Haste."
+  },
+  {
+    "id": 69,
+    "name": "Repulsor",
+    "rarity": "Silver",
+    "description": "On dropping below X Health, nearby enemies are Knocked Back."
+  },
+  {
+    "id": 70,
+    "name": "Restless Restoration",
+    "rarity": "Gold",
+    "description": "You constantly heal while moving."
+  },
+  {
+    "id": 72,
+    "name": "Searing Dawn",
+    "rarity": "Gold",
+    "description": "Your Abilities mark enemies, causing them to take additional magic damage from your ally's next Attack or Ability."
+  },
+  {
+    "id": 73,
+    "name": "Shadow Runner",
+    "rarity": "Silver",
+    "description": "After using a dash, leap, blink, or teleport Ability or exiting Stealth, gain X Move Speed for X seconds."
+  },
+  {
+    "id": 74,
+    "name": "Shrink Ray",
+    "rarity": "Gold",
+    "description": "Your Attacks reduce the target's damage and size by X% {{ Item_Keyword_OnHit }}."
+  },
+  {
+    "id": 75,
+    "name": "Slow Cooker",
+    "rarity": "Prismatic",
+    "description": "Every second, apply an infinitely stacking Burn to nearby enemy champions, scaling with your max Health."
+  },
+  {
+    "id": 76,
+    "name": "Sonic Boom",
+    "rarity": "Silver",
+    "description": "Buffing, Healing, or Shielding your ally deals damage and Slows enemies surrounding them."
+  },
+  {
+    "id": 77,
+    "name": "Soul Siphon",
+    "rarity": "Gold",
+    "description": "Heal for Xi:scaleCrit Crit chance."
+  },
+  {
+    "id": 78,
+    "name": "Spirit Link",
+    "rarity": "Prismatic",
+    "description": "{{Cherry_SpiritLinkX_Summary}}"
+  },
+  {
+    "id": 79,
+    "name": "Symphony of War",
+    "rarity": "Prismatic",
+    "description": "Gain the Lethal Tempo and Conqueror Keystone Runes."
+  },
+  {
+    "id": 80,
+    "name": "Tank It Or Leave It",
+    "rarity": "Silver",
+    "description": "You can Critically Defend using your Crit Chance (max Xi:scaleCrit Crit Chance."
+  },
+  {
+    "id": 81,
+    "name": "Tap Dancer",
+    "rarity": "Prismatic",
+    "description": "Your Attacks grant you X Move Speed {{ Item_Keyword_OnHit }}. Gain Attack Speed equal to X% of your Move Speed."
+  },
+  {
+    "id": 82,
+    "name": "The Brutalizer",
+    "rarity": "Silver",
+    "description": "Gain X Attack Damage, X Ability Haste, and X Lethality."
+  },
+  {
+    "id": 84,
+    "name": "Thread the Needle",
+    "rarity": "Gold",
+    "description": "Gain Xi:scaleAPeni:scaleMPen% Magic Penetration."
+  },
+  {
+    "id": 85,
+    "name": "Tormentor",
+    "rarity": "Silver",
+    "description": "Immobilizing or Grounding enemy champions applies a Burn that deals damage over time, stacking infinitely."
+  },
+  {
+    "id": 86,
+    "name": "Trueshot Prodigy",
+    "rarity": "Prismatic",
+    "description": "When you damage a champion from far away, fire a Trueshot Barrage at them."
+  },
+  {
+    "id": 87,
+    "name": "Typhoon",
+    "rarity": "Silver",
+    "description": "Your Attacks fire a bolt at an additional target dealing reduced damage and applying {{ Item_Keyword_OnHit }} effects."
+  },
+  {
+    "id": 88,
+    "name": "Ultimate Revolution",
+    "rarity": "Prismatic",
+    "description": "Once per round, refresh your Ultimate after casting it."
+  },
+  {
+    "id": 89,
+    "name": "Vanish",
+    "rarity": "Gold",
+    "description": "Gain the Vanish Summoner Spell. Vanish turns you Invisible."
+  },
+  {
+    "id": 90,
+    "name": "Vengeance",
+    "rarity": "Gold",
+    "description": "{{ Cherry_VengeanceX_Summary }}"
+  },
+  {
+    "id": 92,
+    "name": "Vulnerability",
+    "rarity": "Gold",
+    "description": "Your Item and damage over time effects can Critically Strike. Gain X% Crit chance."
+  },
+  {
+    "id": 93,
+    "name": "Warmup Routine",
+    "rarity": "Silver",
+    "description": "Gain the Warmup Routine Summoner Spell. Channel your inner dancer to increase your damage by 2 max."
+  },
+  {
+    "id": 94,
+    "name": "Willing Sacrifice",
+    "rarity": "Gold",
+    "description": "When an allied champion drops below X% Health, trade some of your health to Shield them."
+  },
+  {
+    "id": 96,
+    "name": "Wisdom of Ages",
+    "rarity": "Prismatic",
+    "description": "Gain 1 level now, and 1 bonus level every other round. Your level cap is removed. If taken after round X, gain X additional levels."
+  },
+  {
+    "id": 97,
+    "name": "Witchful Thinking",
+    "rarity": "Silver",
+    "description": "Gain X Ability Power."
+  },
+  {
+    "id": 98,
+    "name": "With Haste",
+    "rarity": "Gold",
+    "description": "Gain Move Speed equal to X% of your Ability Haste."
+  },
+  {
+    "id": 102,
+    "name": "Don't Chase",
+    "rarity": "Silver",
+    "description": "You become Ghosted and leave a trail of poisonous gas behind you, dealing magic damage to enemies inside."
+  },
+  {
+    "id": 103,
+    "name": "Bread And Butter",
+    "rarity": "Gold",
+    "description": "Your X gains X Ability Haste."
+  },
+  {
+    "id": 104,
+    "name": "Minionmancer",
+    "rarity": "Gold",
+    "description": "Your summons gain X% increased size, health, and damage."
+  },
+  {
+    "id": 105,
+    "name": "Homeguard",
+    "rarity": "Silver",
+    "description": "Gain X% Move Speed, disabled for X seconds after taking damage."
+  },
+  {
+    "id": 107,
+    "name": "Twice Thrice",
+    "rarity": "Gold",
+    "description": "Every X attacks, your {{ Item_Keyword_OnHit }} effects trigger a second time."
+  },
+  {
+    "id": 108,
+    "name": "Self Destruct",
+    "rarity": "Silver",
+    "description": "Every X seconds Autocast, attach a bomb to yourself, it explodes, dealing massive true damage and Knocking Up nearby enemies."
+  },
+  {
+    "id": 109,
+    "name": "Oathsworn",
+    "rarity": "Gold",
+    "description": "Replace Flee with Fate's Call. Fate's Call making your ally Untargetable for up to 4 seconds. your ally can launch themself out, Knocking Back enemies."
+  },
+  {
+    "id": 110,
+    "name": "Clothesline",
+    "rarity": "Silver",
+    "description": "There is a tether connecting your team, deals constant magic damage to enemies it touches."
+  },
+  {
+    "id": 112,
+    "name": "Ultimate Unstoppable",
+    "rarity": "Silver",
+    "description": "After using your Ultimate, you become immune to crowd control for X seconds. (X second Cooldown)."
+  },
+  {
+    "id": 113,
+    "name": "Skilled Sniper",
+    "rarity": "Gold",
+    "description": "Hitting an enemy with a non-Ultimate Ability at far range drastically reduces its Cooldown."
+  },
+  {
+    "id": 115,
+    "name": "Scopiest Weapons",
+    "rarity": "Prismatic",
+    "description": "Gain X Attack Range."
+  },
+  {
+    "id": 116,
+    "name": "Flashy",
+    "rarity": "Gold",
+    "description": "Your Flash has X Ammo and a X second Cooldown."
+  },
+  {
+    "id": 118,
+    "name": "Critical Healing",
+    "rarity": "Gold",
+    "description": "Your Heals and Shields can Critically Strike for an addtional X. Gain X% Crit Chance."
+  },
+  {
+    "id": 120,
+    "name": "Serve Beyond Death",
+    "rarity": "Silver",
+    "description": "The first time you would die each round, instead return to full Health, decaying over time. Taking down an enemy champion while your Health is decaying stops the decay."
+  },
+  {
+    "id": 123,
+    "name": "Summoner's Roulette",
+    "rarity": "Prismatic",
+    "description": "Replace your Summoner Spells with random ones. When you use a Summoner Spell, replace it with another random one on a X second Cooldown."
+  },
+  {
+    "id": 125,
+    "name": "Raid Boss",
+    "rarity": "Prismatic",
+    "description": "You start each round imprisoned. While imprisoned, you have massive damage reduction and accumulate size, and power over time. When you escape, Knock Back enemies and gaining Shield."
+  },
+  {
+    "id": 129,
+    "name": "Marksmage",
+    "rarity": "Gold",
+    "description": "Your Attacks deal additional physical damage equal to X% Ability Power."
+  },
+  {
+    "id": 133,
+    "name": "Magic Missile",
+    "rarity": "Gold",
+    "description": "Dealing damage with an Ability fires X magic missiles, each dealing percent max Health true damage."
+  },
+  {
+    "id": 134,
+    "name": "Draw Your Sword",
+    "rarity": "Prismatic",
+    "description": "You are now melee. Gain Attack Damage, Health, Attack Speed, Lifesteal, and Move Speed based on how much Attack Range you lost."
+  },
+  {
+    "id": 135,
+    "name": "Spellwake",
+    "rarity": "Prismatic",
+    "description": "Hitting enemies with Abilities creates a blast that deals magic damage from you to the location you hit them."
+  },
+  {
+    "id": 136,
+    "name": "Slap Around",
+    "rarity": "Silver",
+    "description": "Each time you Immobilize or Ground an enemy, gain X Adaptive Force for the round."
+  },
+  {
+    "id": 138,
+    "name": "Goredrink",
+    "rarity": "Silver",
+    "description": "Gain X% Omnivamp."
+  },
+  {
+    "id": 141,
+    "name": "All For You",
+    "rarity": "Gold",
+    "description": "Your Heals and Shields are stronger when used on an ally."
+  },
+  {
+    "id": 149,
+    "name": "Impassable",
+    "rarity": "Gold",
+    "description": "Gain the Aftershock and Glacial Augment Keystone Runes."
+  },
+  {
+    "id": 150,
+    "name": "Bread And Jam",
+    "rarity": "Gold",
+    "description": "Your X gains X Ability Haste."
+  },
+  {
+    "id": 151,
+    "name": "Bread And Cheese",
+    "rarity": "Gold",
+    "description": "Your X gains X Ability Haste."
+  },
+  {
+    "id": 152,
+    "name": "Quest: Steel Your Heart",
+    "rarity": "Gold",
+    "description": "Requirement: Possess Heartsteel with X+ stacks. Reward: Multiply your Heartsteel stacks by X. Increase your Health Regeneration by X% of your Heartsteel stacks."
+  },
+  {
+    "id": 154,
+    "name": "Quest: Urf's Champion",
+    "rarity": "Gold",
+    "description": "Requirement: Score X takedowns. Reward: Golden Spatula"
+  },
+  {
+    "id": 156,
+    "name": "Quest: Wooglet's Witchcap",
+    "rarity": "Prismatic",
+    "description": "Immediate: Gain Needlessly Large Rod. Requirement: Possess Rabadon's Deathcap and Zhonya's Hourglass. Reward: Gain Wooglet's Witchcap."
+  },
+  {
+    "id": 165,
+    "name": "Restart",
+    "rarity": "Gold",
+    "description": "Your non-Ultimate Abilities Automatically refresh every X seconds."
+  },
+  {
+    "id": 171,
+    "name": "Dematerialize",
+    "rarity": "Silver",
+    "description": "Gain X Adaptive Force on takedown, once per champion per round. Gaining this augment after round X, gain X Adaptive Force."
+  },
+  {
+    "id": 172,
+    "name": "Mirror Image",
+    "rarity": "Silver",
+    "description": "When you drop below X% Health, briefly become Invisible and create 4 clones of yourself."
+  },
+  {
+    "id": 174,
+    "name": "Laser Eyes",
+    "rarity": "Prismatic",
+    "description": "There is a laser in the direction you are facing that deals continuous magic damage."
+  },
+  {
+    "id": 175,
+    "name": "Parasitic Relationship",
+    "rarity": "Gold",
+    "description": "{{ Cherry_ParasiticRelationshipX_Summary }}"
+  },
+  {
+    "id": 177,
+    "name": "Nesting Doll",
+    "rarity": "Prismatic",
+    "description": "Gain X additional Revives, and begin reviving yourself after you die. When you Revive Knockback enemies around you, and come back smaller with reduced max Health."
+  },
+  {
+    "id": 180,
+    "name": "Big Brain",
+    "rarity": "Gold",
+    "description": "At the start of each round, gain X Shield for every X Ability Power."
+  },
+  {
+    "id": 181,
+    "name": "Heavy Hitter",
+    "rarity": "Silver",
+    "description": "Your Attacks deal additional physical damage equal to X% of your max Health."
+  },
+  {
+    "id": 192,
+    "name": "Quest: Angel of Retribution",
+    "rarity": "Gold",
+    "description": "Requirement: Heal or prevent X damage to allies. Reward: Gain X Heal/Shield Power."
+  },
+  {
+    "id": 193,
+    "name": "Center of the Universe",
+    "rarity": "Prismatic",
+    "description": "Stars orbit you, dealing magic damage to enemies they pass through."
+  },
+  {
+    "id": 194,
+    "name": "Fey Magic",
+    "rarity": "Prismatic",
+    "description": "Damaging with your Ultimate Polymorphs enemies for a few seconds."
+  },
+  {
+    "id": 195,
+    "name": "Giant Slayer",
+    "rarity": "Prismatic",
+    "description": "Become tiny, gain Move Speed, and bonus damage to champions based on how much larger they are than you."
+  },
+  {
+    "id": 198,
+    "name": "Holy Fire",
+    "rarity": "Gold",
+    "description": "Healing or Shielding applies an infinitely stacking Burn to a nearby enemy, dealing percent max Health magic damage over a few seconds."
+  },
+  {
+    "id": 200,
+    "name": "Blood Brother",
+    "rarity": "Gold",
+    "description": "Gain Darius's Passive Hemorrhage. Attacks and damaging Abilities cause the target to Hemorrhage, dealing X physical damage over X seconds, stacking up to X times. Draven gains X Attack Damage at X Hemorrhage stacks."
+  },
+  {
+    "id": 204,
+    "name": "Stackosaurus Rex",
+    "rarity": "Silver",
+    "description": "When you gain permanent Stacks of an Ability, Augment, or Item gain X% more!"
+  },
+  {
+    "id": 205,
+    "name": "ADAPt",
+    "rarity": "Silver",
+    "description": "Convert Bonus Attack Damage to Ability Power. Gain X% Ability Power."
+  },
+  {
+    "id": 206,
+    "name": "escAPADe",
+    "rarity": "Silver",
+    "description": "Convert Ability Power to Bonus Attack Damage. Gain X% Attack Damage."
+  },
+  {
+    "id": 207,
+    "name": "Hold Very Still",
+    "rarity": "Silver",
+    "description": "Gain Guerrilla Warfare. Not moving causes you to turn Invisibile until you move. Exiting this Invisibility, causes your next attack to deal bonus magic damage."
+  },
+  {
+    "id": 208,
+    "name": "Orbital Laser",
+    "rarity": "Prismatic",
+    "description": "Replace Summoner Flee with Orbital Laser. After a delay, call down an orbital laser that deals X% max Health true damage plus X magic damage over X seconds."
+  },
+  {
+    "id": 211,
+    "name": "It's Killing Time",
+    "rarity": "Gold",
+    "description": "After casting your Ultimate, mark all enemy champions for death. While marked, store damage dealt to them, and detonate the damage when the mark ends."
+  },
+  {
+    "id": 214,
+    "name": "Spin To Win",
+    "rarity": "Silver",
+    "description": "Your spin Abilities gain X Ability Haste and deal X% more damage!"
+  },
+  {
+    "id": 215,
+    "name": "Dark Blessing",
+    "rarity": "Gold",
+    "description": "Healing or Shielding an ally grants you permanent Cursed Power. Gain Ability Haste based on your Cursed Power."
+  },
+  {
+    "id": 216,
+    "name": "Dreadbringer",
+    "rarity": "Prismatic",
+    "description": "Gain an aura that continuously harvests permanent Cursed Power per enemy champion inside. Gain max Health based on your Cursed Power."
+  },
+  {
+    "id": 217,
+    "name": "Deathtouch",
+    "rarity": "Gold",
+    "description": "Attacking enemy champions grants permanent Cursed Power and deal additional magic damage based on your Cursed Power."
+  },
+  {
+    "id": 218,
+    "name": "Desecrator",
+    "rarity": "Silver",
+    "description": "Immobilizing enemy champions grants you permanent Cursed Power. Gain Armor and Magic Resistance based on your Cursed Power."
+  },
+  {
+    "id": 219,
+    "name": "Doomsayer",
+    "rarity": "Prismatic",
+    "description": "Hitting an enemy champion with an ability hits grant you permanent Cursed Power. Gain Adaptive Force based on your Cursed Power."
+  },
+  {
+    "id": 220,
+    "name": "Fan the Hammer",
+    "rarity": "Prismatic",
+    "description": "When you Attack, fire X bolts that each deal physical damage and applies your {{ Item_Keyword_OnHit }}."
+  },
+  {
+    "id": 221,
+    "name": "Trailblazer",
+    "rarity": "Silver",
+    "description": "Dashing or Blinking applies a Burn to a nearby enemy that deals damage over time, stacking infinitely."
+  },
+  {
+    "id": 222,
+    "name": "Fruits of Your Labor",
+    "rarity": "Silver",
+    "description": "Power Flowers are X% more effective on you and are shared with your ally."
+  },
+  {
+    "id": 223,
+    "name": "Summoner Revolution",
+    "rarity": "Gold",
+    "description": "Your Summoner Spells gain X additional charge(s). Flash resets every round."
+  },
+  {
+    "id": 224,
+    "name": "Prismatic Egg",
+    "rarity": "Prismatic",
+    "description": "Gain X stack on takedown, once per champion per round. After X stacks, this hatches into a Prismatic Item Anvil, Prismatic Augment, and a Prismatic Stat Anvil."
+  },
+  {
+    "id": 225,
+    "name": "Dual Wield",
+    "rarity": "Prismatic",
+    "description": "When you Attack, fire a bolt that deals X effectiveness. Gain X% total Attack Speed."
+  },
+  {
+    "id": 226,
+    "name": "Stats!",
+    "rarity": "Silver",
+    "description": "Gain X Stat Anvils!"
+  },
+  {
+    "id": 227,
+    "name": "Stats on Stats!",
+    "rarity": "Gold",
+    "description": "Gain X Stat Anvils!"
+  },
+  {
+    "id": 228,
+    "name": "Stats on Stats on Stats!",
+    "rarity": "Prismatic",
+    "description": "Gain X Stat Anvils!"
+  },
+  {
+    "id": 229,
+    "name": "Fire Sale",
+    "rarity": "Silver",
+    "description": "Instantly sell all your non-quest items for X% of their direct buy price. Great for all those discounted anvils."
+  },
+  {
+    "id": 231,
+    "name": "Light Warden",
+    "rarity": "Gold",
+    "description": "Every few seconds, Autocast a warding light, Shielding yourself and allies it passes through before returning, repeating the effect."
+  },
+  {
+    "id": 232,
+    "name": "Slime Time",
+    "rarity": "Silver",
+    "description": "Every few seconds Autocast a burst slime from your body, dealing magic damage to nearby enemies. If you hit a champion, secrete a blob that heals you when walked over."
+  },
+  {
+    "id": 233,
+    "name": "Ultimate Roulette",
+    "rarity": "Prismatic",
+    "description": "Replace Flee with a random Ultimate. After casting the Ultimate, replace it with new random Ultimate."
+  },
+  {
+    "id": 234,
+    "name": "Gamba Anvil",
+    "rarity": "Prismatic",
+    "description": "Gain +X gold and reduce the price of all anvils. Prismatic Anvils: -X gold Legendary Anvils: -X gold Stat Anvils: -X gold Items acquired from anvils resell for -500 gold less."
+  },
+  {
+    "id": 236,
+    "name": "Trickster Demon",
+    "rarity": "Gold",
+    "description": "When you exit stealth explode for X Magic Damage, your clones and traps will do the same on death."
+  },
+  {
+    "id": 237,
+    "name": "Transmute: Gold",
+    "rarity": "Silver",
+    "description": "Gain a random Gold Augment."
+  },
+  {
+    "id": 238,
+    "name": "Transmute: Prismatic",
+    "rarity": "Gold",
+    "description": "Gain a random Prismatic Augment."
+  },
+  {
+    "id": 239,
+    "name": "Symbiotic Mutation",
+    "rarity": "Gold",
+    "description": "Every round this mutates into one of your ally's augments. Only mutates into augments you could roll."
+  },
+  {
+    "id": 240,
+    "name": "Parasitic Mutation",
+    "rarity": "Silver",
+    "description": "Every round this mutates into one of your opponent's augments. Only mutates into augments you could roll."
+  },
+  {
+    "id": 241,
+    "name": "Hat Trick",
+    "rarity": "Gold",
+    "description": "Instantly gain X hats, and reduce the price of Cappa Juice by X. When your health drops below X% gain Move Speed and a shield, but lose one hat."
+  },
+  {
+    "id": 243,
+    "name": "Transmute: Chaos",
+    "rarity": "Prismatic",
+    "description": "Gain X random Augments."
+  },
+  {
+    "id": 250,
+    "name": "Slow and Steady",
+    "rarity": "Gold",
+    "description": "Your Attack Speed can not go above X. All Bonus Attack Speed is converted to Attack Damage."
+  },
+  {
+    "id": 251,
+    "name": "Numb to Pain",
+    "rarity": "Silver",
+    "description": "X for ranged champions)."
+  },
+  {
+    "id": 301,
+    "name": "Divine Intervention",
+    "rarity": "Gold",
+    "description": "Shortly after combat starts, call a protective star. Upon its landing, you and nearby allies become Invulnerable for a few seconds. Then Autocast this every X seconds."
+  },
+  {
+    "id": 302,
+    "name": "Sacrifice: For Silver",
+    "rarity": "Silver",
+    "description": "After X rounds, gain a bonus Silver Augment."
+  },
+  {
+    "id": 303,
+    "name": "Sacrifice: For Gold",
+    "rarity": "Gold",
+    "description": "Sacrifice X% of your current health. After X rounds, gain a bonus Gold Augment and restore your health."
+  },
+  {
+    "id": 304,
+    "name": "Sacrifice: For Prismatic",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X% of your current health. After X rounds, gain a bonus Prismatic Augment and restore your health."
+  },
+  {
+    "id": 305,
+    "name": "Leg Day",
+    "rarity": "Silver",
+    "description": "Gain X Movement Speed and X% Slow Resist."
+  },
+  {
+    "id": 308,
+    "name": "Firefox",
+    "rarity": "Silver",
+    "description": "Autocast Gain Movement Speed and conjure three flames that orbit you, targetting the closest visible enemy in range and dealing magic damage."
+  },
+  {
+    "id": 309,
+    "name": "And My Axe!",
+    "rarity": "Gold",
+    "description": "Autocast: Periodically throws an axe at the nearest opponent, dealing physical damage, slowing, and shredding their armor and magic resist. Picking up the axe reduces its Cooldown."
+  },
+  {
+    "id": 310,
+    "name": "Clown College",
+    "rarity": "Prismatic",
+    "description": "Gain Deceive Summoner Spell. Deceive: You teleport and become Invisible. Your next Attack while Invisible deals an additional physical damage. When you die, spawn an exploding box that deals a large amount of magic damage and Fear nearby enemies."
+  },
+  {
+    "id": 311,
+    "name": "Overflow",
+    "rarity": "Gold",
+    "description": "Your Mana costs are doubled. Your Ability Heals, Shields, and damage are increased based on your max Mana."
+  },
+  {
+    "id": 312,
+    "name": "We'll Be Right Back",
+    "rarity": "Gold",
+    "description": "Gain Time Stop Summoner Spell. Time Stop: ALL nearby champions are put in Stasis. The Stasis is shorter on you, and during it you Heal based on missing Health."
+  },
+  {
+    "id": 313,
+    "name": "Tank Engine",
+    "rarity": "Gold",
+    "description": "Gain increased size and percent bonus Health per takedown."
+  },
+  {
+    "id": 314,
+    "name": "Unshackled",
+    "rarity": "Gold",
+    "description": "You can now Hijack your ally's ultimate. On takedown, reduce Hijack's lockout and cooldown by X%. Gain X Ultimate Haste."
+  },
+  {
+    "id": 316,
+    "name": "Grievous Venom",
+    "rarity": "Silver",
+    "description": "Dealing damage to an enemy champion reduces any shields they gain, and applies Grievous Wounds, reducing any healing they receive."
+  },
+  {
+    "id": 317,
+    "name": "Pandora's Box",
+    "rarity": "Prismatic",
+    "description": "Transmute all of your augments into random Prismatic Augments."
+  },
+  {
+    "id": 318,
+    "name": "Quest: Mad Hatter",
+    "rarity": "Gold",
+    "description": "Requirement: Wear X hats at the end of combat. Reward: Gain Adaptive Force, Armor, Magic Resist, Tenacity, and Movement Speed per hat."
+  },
+  {
+    "id": 319,
+    "name": "Quest: Three Sacred Treasures",
+    "rarity": "Gold",
+    "description": "Requirement: Possess Infinity Edge, Perplexity, and Hextech Gunblade. Reward: Yunara's Attacks are replaced with lasers that deal mixed damage."
+  },
+  {
+    "id": 321,
+    "name": "Bodyguard",
+    "rarity": "Gold",
+    "description": "Using a dash, blink, or teleport grants yourself, and any allied champions you pass through, a shield."
+  },
+  {
+    "id": 322,
+    "name": "Augmented Power",
+    "rarity": "Silver",
+    "description": "Increase the damage done by your augments and items by X."
+  },
+  {
+    "id": 323,
+    "name": "Cerberus",
+    "rarity": "Prismatic",
+    "description": "Gain the Hail of Blades and Press the Attack Keystone Runes."
+  },
+  {
+    "id": 324,
+    "name": "Bravest of the Brave",
+    "rarity": "Silver",
+    "description": "Increase future augment offerings by X tier. If the augments were already Prismatic tier, gain a bonus X gold."
+  },
+  {
+    "id": 327,
+    "name": "Undying Guard",
+    "rarity": "Gold",
+    "description": "Upon reviving with Cultivation of War, Zaahen deals damage to nearby enemies based on their current Health and knocks all targets back, becoming impervious to damage dealt by champions outside of the circle created and gains a brief burst of movement speed."
+  },
+  {
+    "id": 330,
+    "name": "Despoil",
+    "rarity": "Silver",
+    "description": "Dashing or Teleporting grants you Cursed Power if there is an enemy nearby. Gain Move Speed scaling with your Cursed Power."
+  },
+  {
+    "id": 333,
+    "name": "Quest: Rite Of The Forge God",
+    "rarity": "Prismatic",
+    "description": "Requirement: Purchase X Item Anvils. Reward: All of your items become Masterwork, increasing their stats by X%."
+  },
+  {
+    "id": 335,
+    "name": "Panic Room",
+    "rarity": "Silver",
+    "description": "Once per combat, when you would die, instead turn into a wisp, set yourself to X% Health, and travel to a random spot in the arena."
+  },
+  {
+    "id": 336,
+    "name": "Aim for the Head",
+    "rarity": "Gold",
+    "description": "Your Critical Strike Chance is capped at X of Critical Strike Chance above X Critical Strike Chance and X% Critical Strike Damage."
+  },
+  {
+    "id": 338,
+    "name": "Hive Mind",
+    "rarity": "Prismatic",
+    "description": "Start each round with X Bee, gain additonal Bees by harvesting flowers. Damaging an enemy champion sends a Bee dealing X magic damage over X seconds on arrival, before returning to you."
+  },
+  {
+    "id": 340,
+    "name": "Gain a Prismatic Stat Anvil",
+    "rarity": "Prismatic",
+    "description": "Gain a Prismatic Stat Anvil."
+  },
+  {
+    "id": 341,
+    "name": "Gain an Augment slot",
+    "rarity": "Prismatic",
+    "description": "Unlock your Xth Augment Slot. In X rounds gain a Silver Augment."
+  },
+  {
+    "id": 342,
+    "name": "Level Augments",
+    "rarity": "Prismatic",
+    "description": "Remove an Augment. Gain X random Augment Levels."
+  },
+  {
+    "id": 343,
+    "name": "Righteous Fury",
+    "rarity": "Prismatic",
+    "description": "Healing or Shielding increases your Ability damage by X%, stacking infinitely for the round."
+  },
+  {
+    "id": 344,
+    "name": "Energetic",
+    "rarity": "Silver",
+    "description": "Gain Energized X max Health true damage based on distance traveled."
+  },
+  {
+    "id": 345,
+    "name": "Magical Girl",
+    "rarity": "Prismatic",
+    "description": "Each round a star falls, picking it up transforms you into a powerful Magical Girl. As a Magical Girl, stars rain down around you and your enemies, dealing magic damage."
+  },
+  {
+    "id": 346,
+    "name": "Bread Sandwich",
+    "rarity": "Prismatic",
+    "description": "Gain X Ability Haste. Casting an ability gants X% for X seconds."
+  },
+  {
+    "id": 347,
+    "name": "Chemtech Putrifier",
+    "rarity": "Prismatic",
+    "description": "All damage you do applies Grevious Wounds."
+  },
+  {
+    "id": 348,
+    "name": "Bloodrazor",
+    "rarity": "Prismatic",
+    "description": "Dealing damage deals an additional X% max health physical damage."
+  },
+  {
+    "id": 349,
+    "name": "Dematerializer",
+    "rarity": "Prismatic",
+    "description": "Your damage executes champions that are below X% Health."
+  },
+  {
+    "id": 350,
+    "name": "Enchanted Flask",
+    "rarity": "Prismatic",
+    "description": "Gain a Spell Shield every X seconds."
+  },
+  {
+    "id": 351,
+    "name": "Frozen Mallet",
+    "rarity": "Prismatic",
+    "description": "Dealing damage Slows enemies."
+  },
+  {
+    "id": 354,
+    "name": "Remnant of the Watchers",
+    "rarity": "Prismatic",
+    "description": "Reduce the Attack Speed of nearby champions."
+  },
+  {
+    "id": 355,
+    "name": "Gain Stat Anvil",
+    "rarity": "Prismatic",
+    "description": "Gain a random Stat Anvil."
+  },
+  {
+    "id": 356,
+    "name": "Silver Spoon",
+    "rarity": "Silver",
+    "description": "Deal increased damage per Silver Augment you have."
+  },
+  {
+    "id": 357,
+    "name": "Hybrid",
+    "rarity": "Gold",
+    "description": "When you deal damage with an Attack, your next Ability deals X increased damage."
+  },
+  {
+    "id": 358,
+    "name": "Wolf's Frenzy",
+    "rarity": "Prismatic",
+    "description": "Lose your innate revive. Increase your Health by X maximum health, execute them."
+  },
+  {
+    "id": 359,
+    "name": "Lamb's Respite",
+    "rarity": "Prismatic",
+    "description": "Gain X additional revive, and cuts the time needed to revive in half."
+  },
+  {
+    "id": 361,
+    "name": "Ally Demon",
+    "rarity": "Prismatic",
+    "description": "Vote for your team to ally with the Demons. Allying with Demons grants an Augment Level when a Hunter team is eliminated."
+  },
+  {
+    "id": 362,
+    "name": "Ally Hunter",
+    "rarity": "Prismatic",
+    "description": "Vote for your team to ally with the Demon Hunters. Allying with Demon Hunters grants you +X bonus gold when you beat a Demon team."
+  },
+  {
+    "id": 364,
+    "name": "Replace Augment",
+    "rarity": "Prismatic",
+    "description": "Replace one of your Augments with an Augment X tier higher."
+  },
+  {
+    "id": 365,
+    "name": "Abstain From Wealth",
+    "rarity": "Prismatic",
+    "description": "Restore Xi:goldCoins% X gold."
+  },
+  {
+    "id": 366,
+    "name": "Abstain From Power",
+    "rarity": "Prismatic",
+    "description": "Restore X% of of the health you've sacrificed to Tahm Kench. Gain X Silver Stat Anvil."
+  },
+  {
+    "id": 367,
+    "name": "Abstain From Risk",
+    "rarity": "Prismatic",
+    "description": "Restore Xi:Augment% Silver Augment."
+  },
+  {
+    "id": 368,
+    "name": "Craving For Wealth",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain + X gold."
+  },
+  {
+    "id": 369,
+    "name": "Craving For Power",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain X Gold Stat Anvil."
+  },
+  {
+    "id": 370,
+    "name": "Craving For Risk",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain a Gold Augment."
+  },
+  {
+    "id": 371,
+    "name": "Compulsion For Wealth",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain + X gold."
+  },
+  {
+    "id": 372,
+    "name": "Compulsion For Power",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain X Prismatic Stat Anvils."
+  },
+  {
+    "id": 373,
+    "name": "Compulsion For Risk",
+    "rarity": "Prismatic",
+    "description": "Sacrifice X max health. Gain a Prismatic Augment."
+  },
+  {
+    "id": 392,
+    "name": "Swindler's Orb",
+    "rarity": "Prismatic",
+    "description": "Dealing damage to an enemy champion reduces their shields."
+  },
+  {
+    "id": 404,
+    "name": "404 Augment Not Found",
+    "rarity": "Silver",
+    "description": "How did you find this?!?!? Gain X hats."
+  },
+  {
+    "id": 405,
+    "name": "Augment 405",
+    "rarity": "Prismatic",
+    "description": "Gain X% damage per hat you're wearing."
+  }
+]

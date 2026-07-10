@@ -10,8 +10,8 @@
  * @see https://developer.riotgames.com/apis#match-v5/GET_getMatch
  */
 
-/** Arena is queueId 1700 (2v2v2v2 "Rings of Wrath"). */
-export const ARENA_QUEUE_ID = 1700;
+/** Arena is queueId 1700 (6 three-player subteams on "Rings of Wrath"). */
+export const ARENA_QUEUE_ID = 1750;
 /** Arena reports gameMode "CHERRY" (its internal codename). */
 export const ARENA_GAME_MODE = "CHERRY";
 /** Arena is played on the Rings of Wrath map (mapId 30). */
@@ -52,7 +52,7 @@ export interface InfoDto {
   platformId: string;
   /** 1700 for Arena. */
   queueId: number;
-  /** In Arena the two-player subteams live under `players`/subteam ids. */
+  /** In Arena the three-player subteams live under `players`/subteam ids. */
   teams: TeamDto[];
 }
 
@@ -82,9 +82,9 @@ export interface ParticipantDto {
   assists: number;
 
   /** ---- Arena-specific fields ---- */
-  /** Final placement of this player's subteam, 1 (win) through 8. */
+  /** Final placement of this player's subteam, 1 (win) through 6. */
   placement: number;
-  /** The subteam this player belongs to (1-8). Teammates share this id. */
+  /** The subteam this player belongs to (1-6). Teammates share this id. */
   playerSubteamId: number;
   /** Placement of the subteam (mirrors `placement`). */
   subteamPlacement: number;

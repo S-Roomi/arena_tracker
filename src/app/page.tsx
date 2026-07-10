@@ -2,16 +2,21 @@ import { Swords, Trophy } from "lucide-react";
 
 import { Badge } from "~/components/ui/badge";
 import { api } from "~/trpc/server";
-import { pct } from "./_components/arena-ui";
+import { pct, winRateColor } from "./_components/arena-ui";
+import { AugmentLeaderboard } from "./_components/augment-leaderboard";
 import { ChampionLeaderboard } from "./_components/champion-leaderboard";
+import { PlayerSearch } from "./_components/player-search";
 import { RecentMatches } from "./_components/recent-matches";
 import { StatCard } from "./_components/stat-card";
 
 export default async function Home() {
-  const [summary, leaderboard, recent] = await Promise.all([
+  const activePlayer = await api.arena.getActivePlayer();
+  if (!activePlayer) return <SignedOutHero />;
+
+  const [summary, leaderboard, augments] = await Promise.all([
     api.arena.getSummary(),
-    api.arena.getChampionLeaderboard({ limit: 12 }),
-    api.arena.getRecentMatches({ limit: 8 }),
+    api.arena.getChampionLeaderboard(),
+    api.arena.getAugmentLeaderboard(),
   ]);
 
   return (
@@ -25,20 +30,13 @@ export default async function Home() {
           <span className="text-lg font-semibold tracking-tight">
             Arena Tracker
           </span>
-          <Badge variant="secondary" className="ml-1">
-            Queue 1700 · CHERRY
-          </Badge>
         </div>
-        <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-          League of Legends <span className="text-primary">Arena</span>{" "}
-          statistics
+        <h1 className="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl">
+          {activePlayer.gameName}
+          <span className="text-muted-foreground">#{activePlayer.tagLine}</span>
         </h1>
-        <p className="text-muted-foreground mt-3 max-w-2xl text-lg text-pretty">
-          2v2v2v2 performance for{" "}
-          <span className="text-foreground font-medium">
-            {summary.player.gameName}#{summary.player.tagLine}
-          </span>
-          , plus a champion tier list. Built on the official Match-V5 data model.
+        <p className="text-muted-foreground mt-2 text-sm">
+          League of Legends Arena statistics
         </p>
       </header>
 
@@ -49,31 +47,47 @@ export default async function Home() {
           label="Win rate"
           value={pct(summary.winRate)}
           sub={`${summary.wins} firsts`}
-          accent
+          valueColor={winRateColor(summary.winRate)}
         />
         <StatCard
-          label="Top 4 rate"
-          value={pct(summary.top4Rate)}
-          sub={`${summary.top4} finishes`}
+          label="Top 3 rate"
+          value={pct(summary.top3Rate)}
+          sub={`${summary.top3} finishes`}
         />
         <StatCard
           label="Avg placement"
           value={summary.avgPlacement.toFixed(2)}
-          sub="out of 8"
+          sub="out of 6"
         />
         <StatCard label="Avg KDA" value={summary.avgKda.toFixed(2)} />
       </section>
 
       {/* Content grid */}
       <section className="grid grid-cols-1 gap-6 lg:grid-cols-[1.4fr_1fr]">
-        <ChampionLeaderboard rows={leaderboard} />
-        <RecentMatches matches={recent} />
+        <ChampionLeaderboard rows={leaderboard} player={activePlayer.gameName} />
+        <RecentMatches player={`${activePlayer.gameName}#${activePlayer.tagLine}`} />
       </section>
 
-      <footer className="text-muted-foreground mt-12 flex items-center gap-1.5 text-sm">
-        <Trophy className="size-4" />
-        Mock data conforming to Riot Match-V5. Not endorsed by Riot Games.
-      </footer>
+      {/* Augment win rates */}
+      <section className="mt-6">
+        <AugmentLeaderboard rows={augments} player={activePlayer.gameName} />
+      </section>
+    </main>
+  );
+}
+
+/** Landing state before a player has been looked up. */
+function SignedOutHero() {
+  return (
+    <main className="mx-auto flex min-h-[70vh] max-w-2xl flex-col items-center justify-center px-4 text-center">
+      <span className="bg-primary/10 text-primary flex size-14 items-center justify-center rounded-2xl">
+        <Swords className="size-7" />
+      </span>
+      <h1 className="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl">
+        Arena Tracker
+      </h1>
+      <p className="text-muted-foreground mt-2 mb-2 text-balance"/>
+      <PlayerSearch />
     </main>
   );
 }

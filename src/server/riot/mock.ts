@@ -9,7 +9,12 @@
  * demo landing page — is stable across restarts.
  */
 
-import { CHAMPIONS, AUGMENTS } from "./constants";
+import {
+  MOCK_CHAMPIONS,
+  AUGMENTS,
+  MOCK_ITEMS,
+  type ChampionRef,
+} from "./constants";
 import {
   ARENA_GAME_MODE,
   ARENA_MAP_ID,
@@ -58,9 +63,9 @@ function randInt(rng: () => number, min: number, max: number): number {
   return Math.floor(rng() * (max - min + 1)) + min;
 }
 
-/** Fisher-Yates shuffle of 1..8 → the placement drawn by each subteam. */
+/** Fisher-Yates shuffle of 1..6 → the placement drawn by each subteam. */
 function shuffledPlacements(rng: () => number): number[] {
-  const p = [1, 2, 3, 4, 5, 6, 7, 8];
+  const p = [1, 2, 3, 4, 5, 6];
   for (let i = p.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1));
     [p[i], p[j]] = [p[j]!, p[i]!];
@@ -78,6 +83,20 @@ function fourAugments(rng: () => number): [number, number, number, number] {
   return [chosen[0]!, chosen[1]!, chosen[2]!, chosen[3]!];
 }
 
+/** A coherent 6-item build: one pair of boots plus five distinct core items. */
+function buildItems(rng: () => number): [number, number, number, number, number, number] {
+  const boots = MOCK_ITEMS.filter((i) => i.kind === "Boots");
+  const core = MOCK_ITEMS.filter((i) => i.kind !== "Boots");
+
+  const chosen = [pick(rng, boots).id];
+  const pool = [...core];
+  for (let i = 0; i < 5; i++) {
+    const idx = Math.floor(rng() * pool.length);
+    chosen.push(pool.splice(idx, 1)[0]!.id);
+  }
+  return [chosen[0]!, chosen[1]!, chosen[2]!, chosen[3]!, chosen[4]!, chosen[5]!];
+}
+
 function buildParticipant(
   rng: () => number,
   opts: {
@@ -92,11 +111,12 @@ function buildParticipant(
 ): ParticipantDto {
   const { placement } = opts;
   // Better-placed teams tend to deal more damage / earn more gold.
-  const performance = (9 - placement) / 8;
+  const performance = (7 - placement) / 6;
   const kills = randInt(rng, 2, 4) + Math.round(performance * randInt(rng, 2, 8));
   const deaths = randInt(rng, 3, 9) - Math.round(performance * 3);
   const assists = kills + randInt(rng, 0, 6);
   const [a1, a2, a3, a4] = fourAugments(rng);
+  const [i0, i1, i2, i3, i4, i5] = buildItems(rng);
 
   return {
     puuid: opts.puuid,
@@ -122,33 +142,39 @@ function buildParticipant(
     totalDamageTaken:
       9000 + Math.round((1 - performance) * 15000) + randInt(rng, 0, 4000),
     goldEarned: 9000 + Math.round(performance * 6000) + randInt(rng, 0, 1500),
-    item0: randInt(rng, 3000, 3200),
-    item1: randInt(rng, 3000, 3200),
-    item2: randInt(rng, 3000, 3200),
-    item3: randInt(rng, 3000, 3200),
-    item4: randInt(rng, 3000, 3200),
-    item5: randInt(rng, 3000, 3200),
-    item6: 3340,
-    teamId: opts.subteamId <= 4 ? 100 : 200,
+    item0: i0,
+    item1: i1,
+    item2: i2,
+    item3: i3,
+    item4: i4,
+    item5: i5,
+    item6: 0,
+    teamId: opts.subteamId <= 3 ? 100 : 200,
   };
 }
 
 /** Generate a single Arena match conforming to Match-V5. */
-function buildMatch(rng: () => number, index: number): MatchDto {
+function buildMatch(
+  rng: () => number,
+  index: number,
+  featuredChampion: ChampionRef,
+): MatchDto {
   const placements = shuffledPlacements(rng);
   const participants: ParticipantDto[] = [];
 
-  for (let subteam = 1; subteam <= 8; subteam++) {
+  for (let subteam = 1; subteam <= 6; subteam++) {
     const placement = placements[subteam - 1]!;
 
-    // Two players per subteam. The featured player always anchors subteam 1.
+    // Three players per subteam. The featured player always anchors subteam 1,
+    // playing the champion assigned to this match by the featured schedule.
     const usedChamps = new Set<number>();
-    for (let slot = 0; slot < 2; slot++) {
-      let champ = pick(rng, CHAMPIONS);
-      while (usedChamps.has(champ.id)) champ = pick(rng, CHAMPIONS);
+    for (let slot = 0; slot < 3; slot++) {
+      const isFeatured = subteam === 1 && slot === 0;
+
+      let champ = isFeatured ? featuredChampion : pick(rng, MOCK_CHAMPIONS);
+      while (usedChamps.has(champ.id)) champ = pick(rng, MOCK_CHAMPIONS);
       usedChamps.add(champ.id);
 
-      const isFeatured = subteam === 1 && slot === 0;
       participants.push(
         buildParticipant(rng, {
           puuid: isFeatured
@@ -202,8 +228,37 @@ function buildMatch(rng: () => number, index: number): MatchDto {
   };
 }
 
-/** Generate `count` deterministic Arena matches (default 40). */
-export function generateMockMatches(count = 40, seed = 0xa2e1a): MatchDto[] {
+/**
+ * The sequence of champions the featured player plays, one per match. Every
+ * champion appears at least `minPerChampion` times (so each has a real match
+ * history), plus some extra games for a natural, uneven spread. Shuffled.
+ */
+function buildFeaturedSchedule(
+  rng: () => number,
+  minPerChampion: number,
+  extraGames: number,
+): ChampionRef[] {
+  const schedule: ChampionRef[] = [];
+  for (const champ of MOCK_CHAMPIONS) {
+    for (let i = 0; i < minPerChampion; i++) schedule.push(champ);
+  }
+  for (let i = 0; i < extraGames; i++) schedule.push(pick(rng, MOCK_CHAMPIONS));
+
+  // Fisher-Yates shuffle so the player's games aren't grouped by champion.
+  for (let i = schedule.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [schedule[i], schedule[j]] = [schedule[j]!, schedule[i]!];
+  }
+  return schedule;
+}
+
+/**
+ * Generate deterministic Arena matches. The featured player's champion per
+ * match follows a schedule that guarantees every champion is played several
+ * times, so each champion has a meaningful per-player history.
+ */
+export function generateMockMatches(seed = 0xa2e1a): MatchDto[] {
   const rng = makeRng(seed);
-  return Array.from({ length: count }, (_, i) => buildMatch(rng, i));
+  const schedule = buildFeaturedSchedule(rng, 2, 16);
+  return schedule.map((champ, i) => buildMatch(rng, i, champ));
 }

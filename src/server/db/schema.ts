@@ -58,6 +58,13 @@ export const arenaParticipants = createTable(
     assists: d.integer({ mode: "number" }).notNull(),
     totalDamageDealtToChampions: d.integer({ mode: "number" }).notNull(),
     goldEarned: d.integer({ mode: "number" }).notNull(),
+    // Final inventory (Match-V5 item0–item5; 0 = empty slot).
+    item0: d.integer({ mode: "number" }).notNull().default(0),
+    item1: d.integer({ mode: "number" }).notNull().default(0),
+    item2: d.integer({ mode: "number" }).notNull().default(0),
+    item3: d.integer({ mode: "number" }).notNull().default(0),
+    item4: d.integer({ mode: "number" }).notNull().default(0),
+    item5: d.integer({ mode: "number" }).notNull().default(0),
   }),
   (t) => [
     index("participant_match_idx").on(t.matchId),

@@ -11,6 +11,7 @@ import superjson from "superjson";
 import { ZodError } from "zod";
 
 import { db } from "~/server/db";
+import { getActivePuuid } from "~/server/auth/active-player";
 
 /**
  * 1. CONTEXT
@@ -27,6 +28,8 @@ import { db } from "~/server/db";
 export const createTRPCContext = async (opts: { headers: Headers }) => {
   return {
     db,
+    /** Puuid of the player the tracker is currently profiling, or null. */
+    activePuuid: await getActivePuuid(),
     ...opts,
   };
 };

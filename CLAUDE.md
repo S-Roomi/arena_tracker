@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A stats site for **Arena**, the 2v2v2v2 League of Legends mode (`queueId 1700`, `gameMode "CHERRY"`, map `30`). T3 Stack: Next.js App Router + React 19, tRPC, Drizzle ORM on SQLite/libSQL, Tailwind v4 + shadcn/ui.
+A stats site for **Arena**, the League of Legends mode with 6 three-player subteams (`queueId 1700`, `gameMode "CHERRY"`, map `30`). T3 Stack: Next.js App Router + React 19, tRPC, Drizzle ORM on SQLite/libSQL, Tailwind v4 + shadcn/ui.
 
 All match data is **mock, generated deterministically** — but every payload conforms exactly to Riot's Match-V5 response shape. See the central design principle below.
 
@@ -16,6 +16,8 @@ npm run db:push      # sync Drizzle schema to SQLite (no migration files)
 npm run db:seed      # wipe + reload 40 deterministic mock matches
 npm run db:studio    # Drizzle Studio
 npm run icons:fetch  # download champion icons → public/champions/{id}.png
+npm run items:fetch  # download item icons → public/items/{id}.png
+npm run augments:fetch # download augment icons → public/augments/{id}.png
 npm run typecheck    # tsc --noEmit — this is the test/verify step
 npm run build        # production build
 ```
@@ -35,7 +37,7 @@ Because the mock returns nested DTOs, `seed.ts` performs the **same flattening a
 ## Key domain conventions
 
 - **Featured player**: `FEATURED_PLAYER` (in `mock.ts`) is the summoner the whole site profiles. The generator guarantees this puuid anchors **subteam 1, slot 0 of every match**. Queries filter on `FEATURED_PLAYER.puuid`.
-- **Placement semantics** (defined in `routers/arena.ts`): a "win" is `placement === 1` (Arena has 8 subteams, one winner); "top 4" (`placement <= 4`) is the positive/positive-finish cut. Reuse `isWin` / `isTop4` rather than re-deriving.
+- **Placement semantics** (defined in `routers/arena.ts`): a "win" is `placement === 1` (Arena has 6 subteams, one winner); "top 3" (`placement <= 3`) is the positive/positive-finish cut (top half). Reuse `isWin` / `isTop3` rather than re-deriving.
 - **DB table prefix**: `sqliteTableCreator` prefixes every table `arena_tracker_` (multi-project schema). Physical table names differ from the exported symbol names.
 - **Champion icons**: served as static PNGs from `public/champions/{championId}.png`, keyed by id to match the Match-V5 contract. `<ChampionIcon>` uses `unoptimized` Next Image on purpose (avoids a Next 15.5 image-cache bug).
 

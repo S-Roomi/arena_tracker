@@ -11,7 +11,10 @@
     "db:seed": "tsx src/server/db/seed.ts",
     "db:studio": "drizzle-kit studio",
     "dev": "next dev --turbo",
+    "augments:fetch": "tsx scripts/fetch-augment-icons.ts",
+    "data:fetch": "tsx scripts/fetch-reference-data.ts",
     "icons:fetch": "tsx scripts/fetch-champion-icons.ts",
+    "items:fetch": "tsx scripts/fetch-item-icons.ts",
     "preview": "next build && next start",
     "start": "next start",
     "typecheck": "tsc --noEmit"

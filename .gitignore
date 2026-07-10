@@ -47,3 +47,7 @@ yarn-error.log*
 
 # images
 public/champions
+# item icons
+public/items
+# augment icons
+public/augments

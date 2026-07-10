@@ -1,7 +1,8 @@
 # Arena Tracker
 
-A stats site for **Arena**, the 2v2v2v2 game mode in League of Legends
-(`queueId 1700`, `gameMode "CHERRY"`, Rings of Wrath map `30`). It shows a
+A stats site for **Arena**, the League of Legends game mode where 8 three-player
+subteams fight it out (`queueId 1700`, `gameMode "CHERRY"`, Rings of Wrath map
+`30`). It shows a
 featured player's summary, a champion tier list, and recent match history.
 
 Built with the [T3 Stack](https://create.t3.gg/):
@@ -49,6 +50,8 @@ DATABASE_URL="file:./db.sqlite"
 | `npm run dev`       | Start the dev server (Turbopack)  |
 | `npm run db:push`   | Sync the Drizzle schema to SQLite |
 | `npm run db:seed`   | Seed mock Arena matches           |
+| `npm run icons:fetch` | Cache champion icons (Community Dragon) |
+| `npm run items:fetch` | Cache item icons (Data Dragon)    |
 | `npm run db:studio` | Open Drizzle Studio               |
 | `npm run typecheck` | Type-check with `tsc`             |
 | `npm run build`     | Production build                  |

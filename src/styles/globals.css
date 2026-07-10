@@ -10,7 +10,7 @@
 }
 
 @theme inline {
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-heading-src), var(--font-sans);
   --font-sans: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -59,8 +59,9 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
+  /* League of Legends gold (#C89B3C) */
+  --primary: oklch(0.714 0.123 82.9);
+  --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -94,7 +95,8 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
+  /* League of Legends gold (#C89B3C) */
+  --primary: oklch(0.714 0.123 82.9);
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -130,5 +132,61 @@
   }
   html {
     @apply font-sans;
+  }
+}
+
+/*
+ * Prismatic augment tooltip border.
+ *
+ * Rendered as a separate ring element layered inside the tooltip rather than on
+ * the popup itself: Base UI waits for every animation returned by the popup's
+ * `getAnimations()` (which includes its pseudo-elements) to finish before
+ * unmounting on close, and an `infinite` animation never resolves — so putting
+ * the spin on the popup wedges the tooltip open. A descendant's animations are
+ * excluded, so the ring lives here.
+ *
+ * The ring paints a rotating conic rainbow, then a two-layer mask keeps only the
+ * 2px padding band visible (content-box excluded), yielding a gradient border.
+ * `--prismatic-angle` is registered so it can be animated (raw custom properties
+ * aren't interpolable).
+ */
+@property --prismatic-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes prismatic-spin {
+  to {
+    --prismatic-angle: 360deg;
+  }
+}
+
+.augment-tooltip-prismatic {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--prismatic-angle),
+    #f0abfc,
+    #a5b4fc,
+    #67e8f9,
+    #6ee7b7,
+    #fde68a,
+    #fca5a5,
+    #f0abfc
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: prismatic-spin 5s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .augment-tooltip-prismatic {
+    animation: none;
   }
 }

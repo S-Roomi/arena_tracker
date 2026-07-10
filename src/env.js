@@ -11,6 +11,13 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
+    /**
+     * Riot API key used to resolve Riot IDs (Account-V1) and fetch Arena match
+     * history (Match-V5). A free development key works; note it expires every
+     * 24h. Optional so the app still builds/runs on the mock/demo data without
+     * a key — the live sign-in flow throws a friendly error when it's missing.
+     */
+    RIOT_API_KEY: z.string().optional(),
   },
 
   /**
@@ -29,6 +36,7 @@ export const env = createEnv({
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
+    RIOT_API_KEY: process.env.RIOT_API_KEY,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**

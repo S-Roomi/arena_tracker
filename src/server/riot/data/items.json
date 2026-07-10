@@ -1,0 +1,3522 @@
+[
+  {
+    "id": 1001,
+    "name": "Boots",
+    "kind": "Boots"
+  },
+  {
+    "id": 1004,
+    "name": "Faerie Charm",
+    "kind": "AP"
+  },
+  {
+    "id": 1006,
+    "name": "Rejuvenation Bead",
+    "kind": "Tank"
+  },
+  {
+    "id": 1011,
+    "name": "Giant's Belt",
+    "kind": "Tank"
+  },
+  {
+    "id": 1018,
+    "name": "Cloak of Agility",
+    "kind": "AD"
+  },
+  {
+    "id": 1026,
+    "name": "Blasting Wand",
+    "kind": "AP"
+  },
+  {
+    "id": 1027,
+    "name": "Sapphire Crystal",
+    "kind": "AP"
+  },
+  {
+    "id": 1028,
+    "name": "Ruby Crystal",
+    "kind": "Tank"
+  },
+  {
+    "id": 1029,
+    "name": "Cloth Armor",
+    "kind": "Tank"
+  },
+  {
+    "id": 1031,
+    "name": "Chain Vest",
+    "kind": "Tank"
+  },
+  {
+    "id": 1033,
+    "name": "Null-Magic Mantle",
+    "kind": "Tank"
+  },
+  {
+    "id": 1035,
+    "name": "Emberknife",
+    "kind": "AD"
+  },
+  {
+    "id": 1036,
+    "name": "Long Sword",
+    "kind": "AD"
+  },
+  {
+    "id": 1037,
+    "name": "Pickaxe",
+    "kind": "AD"
+  },
+  {
+    "id": 1038,
+    "name": "B. F. Sword",
+    "kind": "AD"
+  },
+  {
+    "id": 1039,
+    "name": "Hailblade",
+    "kind": "AD"
+  },
+  {
+    "id": 1040,
+    "name": "Obsidian Edge",
+    "kind": "AD"
+  },
+  {
+    "id": 1042,
+    "name": "Dagger",
+    "kind": "AD"
+  },
+  {
+    "id": 1043,
+    "name": "Recurve Bow",
+    "kind": "AD"
+  },
+  {
+    "id": 1052,
+    "name": "Amplifying Tome",
+    "kind": "AP"
+  },
+  {
+    "id": 1053,
+    "name": "Vampiric Scepter",
+    "kind": "AD"
+  },
+  {
+    "id": 1054,
+    "name": "Doran's Shield",
+    "kind": "Tank"
+  },
+  {
+    "id": 1055,
+    "name": "Doran's Blade",
+    "kind": "AD"
+  },
+  {
+    "id": 1056,
+    "name": "Doran's Ring",
+    "kind": "AP"
+  },
+  {
+    "id": 1057,
+    "name": "Negatron Cloak",
+    "kind": "Tank"
+  },
+  {
+    "id": 1058,
+    "name": "Needlessly Large Rod",
+    "kind": "AP"
+  },
+  {
+    "id": 1082,
+    "name": "Dark Seal",
+    "kind": "AP"
+  },
+  {
+    "id": 1083,
+    "name": "Cull",
+    "kind": "AD"
+  },
+  {
+    "id": 1086,
+    "name": "Doran's Bow",
+    "kind": "AD"
+  },
+  {
+    "id": 1090,
+    "name": "Quest: Top",
+    "kind": "AD"
+  },
+  {
+    "id": 1091,
+    "name": "Quest: Mid",
+    "kind": "AD"
+  },
+  {
+    "id": 1092,
+    "name": "Quest: Bot",
+    "kind": "AD"
+  },
+  {
+    "id": 1093,
+    "name": "Quest: Support",
+    "kind": "AD"
+  },
+  {
+    "id": 1094,
+    "name": "Quest: Jungle",
+    "kind": "AD"
+  },
+  {
+    "id": 1101,
+    "name": "Scorchclaw Pup",
+    "kind": "AD"
+  },
+  {
+    "id": 1102,
+    "name": "Gustwalker Hatchling",
+    "kind": "AD"
+  },
+  {
+    "id": 1103,
+    "name": "Mosstomper Seedling",
+    "kind": "AD"
+  },
+  {
+    "id": 1104,
+    "name": "Eye of the Herald",
+    "kind": "AD"
+  },
+  {
+    "id": 1105,
+    "name": "Mosstomper Seedling",
+    "kind": "AD"
+  },
+  {
+    "id": 1106,
+    "name": "Gustwalker Hatchling",
+    "kind": "AD"
+  },
+  {
+    "id": 1107,
+    "name": "Scorchclaw Pup",
+    "kind": "AD"
+  },
+  {
+    "id": 1111,
+    "name": "Jarvan I's",
+    "kind": "Boots"
+  },
+  {
+    "id": 1120,
+    "name": "Doran's Helm",
+    "kind": "Tank"
+  },
+  {
+    "id": 1200,
+    "name": "Top Lane Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1201,
+    "name": "Mid Lane Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1202,
+    "name": "Bot Lane Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1203,
+    "name": "Support Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1204,
+    "name": "Jungle Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1205,
+    "name": "Jungle Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1206,
+    "name": "Mid Lane Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1207,
+    "name": "Bot Lane Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1208,
+    "name": "Support Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1209,
+    "name": "Jungle Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1210,
+    "name": "Jungle Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1211,
+    "name": "Jungle Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1220,
+    "name": "Unleashed Teleport (Top Lane Quest Reward)",
+    "kind": "AD"
+  },
+  {
+    "id": 1221,
+    "name": "Top Lane Quest Reward",
+    "kind": "AD"
+  },
+  {
+    "id": 1222,
+    "name": "Top Lane Quest",
+    "kind": "AD"
+  },
+  {
+    "id": 1500,
+    "name": "Penetrating Bullets",
+    "kind": "AP"
+  },
+  {
+    "id": 1501,
+    "name": "Fortification",
+    "kind": "AD"
+  },
+  {
+    "id": 1502,
+    "name": "Reinforced Armor",
+    "kind": "AP"
+  },
+  {
+    "id": 1503,
+    "name": "Warden's Eye",
+    "kind": "AP"
+  },
+  {
+    "id": 1504,
+    "name": "Vanguard",
+    "kind": "AP"
+  },
+  {
+    "id": 1505,
+    "name": "Reinforced Armor",
+    "kind": "AP"
+  },
+  {
+    "id": 1506,
+    "name": "Reinforced Armor",
+    "kind": "AP"
+  },
+  {
+    "id": 1507,
+    "name": "Overcharged",
+    "kind": "AP"
+  },
+  {
+    "id": 1508,
+    "name": "Anti-tower Socks",
+    "kind": "AP"
+  },
+  {
+    "id": 1509,
+    "name": "Gusto",
+    "kind": "AP"
+  },
+  {
+    "id": 1510,
+    "name": "Phreakish Gusto",
+    "kind": "AP"
+  },
+  {
+    "id": 1511,
+    "name": "Super Mech Armor",
+    "kind": "AP"
+  },
+  {
+    "id": 1512,
+    "name": "Super Mech Power Field",
+    "kind": "AP"
+  },
+  {
+    "id": 1515,
+    "name": "Turret Plating",
+    "kind": "Tank"
+  },
+  {
+    "id": 1516,
+    "name": "Structure Bounty",
+    "kind": "AP"
+  },
+  {
+    "id": 1517,
+    "name": "Structure Bounty",
+    "kind": "AP"
+  },
+  {
+    "id": 1518,
+    "name": "Structure Bounty",
+    "kind": "AP"
+  },
+  {
+    "id": 1519,
+    "name": "Structure Bounty",
+    "kind": "AP"
+  },
+  {
+    "id": 1520,
+    "name": "OvererchargedHA",
+    "kind": "AP"
+  },
+  {
+    "id": 1521,
+    "name": "Fortification",
+    "kind": "AD"
+  },
+  {
+    "id": 1522,
+    "name": "Tower Power-Up",
+    "kind": "AD"
+  },
+  {
+    "id": 1523,
+    "name": "Overcharged",
+    "kind": "AP"
+  },
+  {
+    "id": 1524,
+    "name": "Overgrowth",
+    "kind": "AD"
+  },
+  {
+    "id": 2001,
+    "name": "Recall",
+    "kind": "AD"
+  },
+  {
+    "id": 2002,
+    "name": "Enhanced Recall",
+    "kind": "AD"
+  },
+  {
+    "id": 2003,
+    "name": "Health Potion",
+    "kind": "Tank"
+  },
+  {
+    "id": 2007,
+    "name": "Disabled Recall",
+    "kind": "AD"
+  },
+  {
+    "id": 2010,
+    "name": "Total Biscuit of Everlasting Will",
+    "kind": "AD"
+  },
+  {
+    "id": 2015,
+    "name": "Kircheis Shard",
+    "kind": "AD"
+  },
+  {
+    "id": 2019,
+    "name": "Steel Sigil",
+    "kind": "AD"
+  },
+  {
+    "id": 2020,
+    "name": "The Brutalizer",
+    "kind": "AD"
+  },
+  {
+    "id": 2021,
+    "name": "Tunneler",
+    "kind": "AD"
+  },
+  {
+    "id": 2022,
+    "name": "Glowing Mote",
+    "kind": "AD"
+  },
+  {
+    "id": 2031,
+    "name": "Refillable Potion",
+    "kind": "Tank"
+  },
+  {
+    "id": 2033,
+    "name": "Corrupting Potion",
+    "kind": "AP"
+  },
+  {
+    "id": 2049,
+    "name": "Guardian's Amulet",
+    "kind": "AP"
+  },
+  {
+    "id": 2050,
+    "name": "Guardian's Shroud",
+    "kind": "AP"
+  },
+  {
+    "id": 2051,
+    "name": "Guardian's Horn",
+    "kind": "Tank"
+  },
+  {
+    "id": 2052,
+    "name": "Poro-Snax",
+    "kind": "AD"
+  },
+  {
+    "id": 2055,
+    "name": "Control Ward",
+    "kind": "AD"
+  },
+  {
+    "id": 2056,
+    "name": "Stealth Ward",
+    "kind": "AD"
+  },
+  {
+    "id": 2065,
+    "name": "Shurelya's Battlesong",
+    "kind": "AP"
+  },
+  {
+    "id": 2138,
+    "name": "Elixir of Iron",
+    "kind": "Tank"
+  },
+  {
+    "id": 2139,
+    "name": "Elixir of Sorcery",
+    "kind": "AP"
+  },
+  {
+    "id": 2140,
+    "name": "Elixir of Wrath",
+    "kind": "AD"
+  },
+  {
+    "id": 2141,
+    "name": "Cappa Juice",
+    "kind": "AD"
+  },
+  {
+    "id": 2142,
+    "name": "Juice of Power",
+    "kind": "AP"
+  },
+  {
+    "id": 2143,
+    "name": "Juice of Vitality",
+    "kind": "Tank"
+  },
+  {
+    "id": 2144,
+    "name": "Juice of Haste",
+    "kind": "AD"
+  },
+  {
+    "id": 2145,
+    "name": "Lucky Dice",
+    "kind": "AD"
+  },
+  {
+    "id": 2146,
+    "name": "Enhanced Lucky Dice",
+    "kind": "AD"
+  },
+  {
+    "id": 2147,
+    "name": "Augment Level",
+    "kind": "AD"
+  },
+  {
+    "id": 2150,
+    "name": "Elixir of Skill",
+    "kind": "AD"
+  },
+  {
+    "id": 2151,
+    "name": "Elixir of Avarice",
+    "kind": "Tank"
+  },
+  {
+    "id": 2152,
+    "name": "Elixir of Force",
+    "kind": "AD"
+  },
+  {
+    "id": 2161,
+    "name": "Bandle Juice of Power",
+    "kind": "AP"
+  },
+  {
+    "id": 2162,
+    "name": "Bandle Juice of Vitality",
+    "kind": "Tank"
+  },
+  {
+    "id": 2163,
+    "name": "Bandle Juice of Haste",
+    "kind": "AD"
+  },
+  {
+    "id": 2403,
+    "name": "Minion Dematerializer",
+    "kind": "AD"
+  },
+  {
+    "id": 2420,
+    "name": "Seeker's Armguard",
+    "kind": "AP"
+  },
+  {
+    "id": 2421,
+    "name": "Shattered Armguard",
+    "kind": "AD"
+  },
+  {
+    "id": 2422,
+    "name": "Slightly Magical Footwear",
+    "kind": "Boots"
+  },
+  {
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "kind": "AD"
+  },
+  {
+    "id": 2502,
+    "name": "Unending Despair",
+    "kind": "AP"
+  },
+  {
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "kind": "AP"
+  },
+  {
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "kind": "Tank"
+  },
+  {
+    "id": 2508,
+    "name": "Fated Ashes",
+    "kind": "AP"
+  },
+  {
+    "id": 2510,
+    "name": "Dusk and Dawn",
+    "kind": "AP"
+  },
+  {
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "kind": "AP"
+  },
+  {
+    "id": 2517,
+    "name": "Endless Hunger",
+    "kind": "AP"
+  },
+  {
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "kind": "AP"
+  },
+  {
+    "id": 2522,
+    "name": "Actualizer",
+    "kind": "AP"
+  },
+  {
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "kind": "AD"
+  },
+  {
+    "id": 2524,
+    "name": "Bandlepipes",
+    "kind": "AP"
+  },
+  {
+    "id": 2525,
+    "name": "Protoplasm Harness",
+    "kind": "AP"
+  },
+  {
+    "id": 2526,
+    "name": "Whispering Circlet",
+    "kind": "AP"
+  },
+  {
+    "id": 2530,
+    "name": "Diadem of Songs",
+    "kind": "AP"
+  },
+  {
+    "id": 3001,
+    "name": "Evenshroud",
+    "kind": "AP"
+  },
+  {
+    "id": 3002,
+    "name": "Trailblazer",
+    "kind": "Tank"
+  },
+  {
+    "id": 3003,
+    "name": "Archangel's Staff",
+    "kind": "AP"
+  },
+  {
+    "id": 3004,
+    "name": "Manamune",
+    "kind": "AP"
+  },
+  {
+    "id": 3005,
+    "name": "Ghostcrawlers",
+    "kind": "Boots"
+  },
+  {
+    "id": 3006,
+    "name": "Berserker's Greaves",
+    "kind": "Boots"
+  },
+  {
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "kind": "Boots"
+  },
+  {
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "kind": "Boots"
+  },
+  {
+    "id": 3010,
+    "name": "Symbiotic Soles",
+    "kind": "Boots"
+  },
+  {
+    "id": 3011,
+    "name": "Chemtech Putrifier",
+    "kind": "AP"
+  },
+  {
+    "id": 3012,
+    "name": "Chalice of Blessing",
+    "kind": "AP"
+  },
+  {
+    "id": 3013,
+    "name": "Synchronized Souls",
+    "kind": "Boots"
+  },
+  {
+    "id": 3020,
+    "name": "Sorcerer's Shoes",
+    "kind": "Boots"
+  },
+  {
+    "id": 3023,
+    "name": "Lifewell Pendant",
+    "kind": "AP"
+  },
+  {
+    "id": 3024,
+    "name": "Glacial Buckler",
+    "kind": "AP"
+  },
+  {
+    "id": 3026,
+    "name": "Guardian Angel",
+    "kind": "AD"
+  },
+  {
+    "id": 3031,
+    "name": "Infinity Edge",
+    "kind": "AD"
+  },
+  {
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "kind": "AD"
+  },
+  {
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "kind": "AD"
+  },
+  {
+    "id": 3035,
+    "name": "Last Whisper",
+    "kind": "AD"
+  },
+  {
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "kind": "AD"
+  },
+  {
+    "id": 3039,
+    "name": "Atma's Reckoning",
+    "kind": "AD"
+  },
+  {
+    "id": 3040,
+    "name": "Seraph's Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "kind": "AP"
+  },
+  {
+    "id": 3042,
+    "name": "Muramana",
+    "kind": "AP"
+  },
+  {
+    "id": 3044,
+    "name": "Phage",
+    "kind": "AD"
+  },
+  {
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "kind": "AD"
+  },
+  {
+    "id": 3047,
+    "name": "Plated Steelcaps",
+    "kind": "Boots"
+  },
+  {
+    "id": 3050,
+    "name": "Zeke's Convergence",
+    "kind": "AP"
+  },
+  {
+    "id": 3051,
+    "name": "Hearthbound Axe",
+    "kind": "AD"
+  },
+  {
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "kind": "AD"
+  },
+  {
+    "id": 3057,
+    "name": "Sheen",
+    "kind": "AP"
+  },
+  {
+    "id": 3065,
+    "name": "Spirit Visage",
+    "kind": "AP"
+  },
+  {
+    "id": 3066,
+    "name": "Winged Moonplate",
+    "kind": "Tank"
+  },
+  {
+    "id": 3067,
+    "name": "Kindlegem",
+    "kind": "AP"
+  },
+  {
+    "id": 3068,
+    "name": "Sunfire Aegis",
+    "kind": "AP"
+  },
+  {
+    "id": 3070,
+    "name": "Tear of the Goddess",
+    "kind": "AP"
+  },
+  {
+    "id": 3071,
+    "name": "Black Cleaver",
+    "kind": "AP"
+  },
+  {
+    "id": 3072,
+    "name": "Bloodthirster",
+    "kind": "AD"
+  },
+  {
+    "id": 3073,
+    "name": "Experimental Hexplate",
+    "kind": "AP"
+  },
+  {
+    "id": 3074,
+    "name": "Ravenous Hydra",
+    "kind": "AP"
+  },
+  {
+    "id": 3075,
+    "name": "Thornmail",
+    "kind": "Tank"
+  },
+  {
+    "id": 3076,
+    "name": "Bramble Vest",
+    "kind": "Tank"
+  },
+  {
+    "id": 3077,
+    "name": "Tiamat",
+    "kind": "AD"
+  },
+  {
+    "id": 3078,
+    "name": "Trinity Force",
+    "kind": "AP"
+  },
+  {
+    "id": 3082,
+    "name": "Warden's Mail",
+    "kind": "Tank"
+  },
+  {
+    "id": 3083,
+    "name": "Warmog's Armor",
+    "kind": "Tank"
+  },
+  {
+    "id": 3084,
+    "name": "Heartsteel",
+    "kind": "Tank"
+  },
+  {
+    "id": 3085,
+    "name": "Runaan's Hurricane",
+    "kind": "AD"
+  },
+  {
+    "id": 3086,
+    "name": "Zeal",
+    "kind": "AD"
+  },
+  {
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "kind": "AP"
+  },
+  {
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "kind": "AP"
+  },
+  {
+    "id": 3091,
+    "name": "Wit's End",
+    "kind": "AD"
+  },
+  {
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "kind": "AD"
+  },
+  {
+    "id": 3095,
+    "name": "Deprecated item",
+    "kind": "AD"
+  },
+  {
+    "id": 3097,
+    "name": "Stormrazor",
+    "kind": "AD"
+  },
+  {
+    "id": 3100,
+    "name": "Lich Bane",
+    "kind": "AP"
+  },
+  {
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "kind": "AP"
+  },
+  {
+    "id": 3105,
+    "name": "Aegis of the Legion",
+    "kind": "AP"
+  },
+  {
+    "id": 3107,
+    "name": "Redemption",
+    "kind": "AP"
+  },
+  {
+    "id": 3108,
+    "name": "Fiendish Codex",
+    "kind": "AP"
+  },
+  {
+    "id": 3109,
+    "name": "Knight's Vow",
+    "kind": "AP"
+  },
+  {
+    "id": 3110,
+    "name": "Frozen Heart",
+    "kind": "AP"
+  },
+  {
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "kind": "Boots"
+  },
+  {
+    "id": 3112,
+    "name": "Guardian's Orb",
+    "kind": "AP"
+  },
+  {
+    "id": 3113,
+    "name": "Aether Wisp",
+    "kind": "AP"
+  },
+  {
+    "id": 3114,
+    "name": "Forbidden Idol",
+    "kind": "AP"
+  },
+  {
+    "id": 3115,
+    "name": "Nashor's Tooth",
+    "kind": "AP"
+  },
+  {
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "kind": "AP"
+  },
+  {
+    "id": 3117,
+    "name": "Mobility Boots",
+    "kind": "Boots"
+  },
+  {
+    "id": 3118,
+    "name": "Malignance",
+    "kind": "AP"
+  },
+  {
+    "id": 3119,
+    "name": "Winter's Approach",
+    "kind": "AP"
+  },
+  {
+    "id": 3121,
+    "name": "Fimbulwinter",
+    "kind": "AP"
+  },
+  {
+    "id": 3123,
+    "name": "Executioner's Calling",
+    "kind": "AD"
+  },
+  {
+    "id": 3124,
+    "name": "Guinsoo's Rageblade",
+    "kind": "AP"
+  },
+  {
+    "id": 3128,
+    "name": "Deathfire Grasp",
+    "kind": "AP"
+  },
+  {
+    "id": 3131,
+    "name": "Sword of the Divine",
+    "kind": "AD"
+  },
+  {
+    "id": 3133,
+    "name": "Caulfield's Warhammer",
+    "kind": "AP"
+  },
+  {
+    "id": 3134,
+    "name": "Serrated Dirk",
+    "kind": "AD"
+  },
+  {
+    "id": 3135,
+    "name": "Void Staff",
+    "kind": "AP"
+  },
+  {
+    "id": 3137,
+    "name": "Cryptbloom",
+    "kind": "AP"
+  },
+  {
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "kind": "AD"
+  },
+  {
+    "id": 3140,
+    "name": "Quicksilver Sash",
+    "kind": "Tank"
+  },
+  {
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "kind": "AD"
+  },
+  {
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "kind": "Tank"
+  },
+  {
+    "id": 3144,
+    "name": "Scout's Slingshot",
+    "kind": "AD"
+  },
+  {
+    "id": 3145,
+    "name": "Hextech Alternator",
+    "kind": "AP"
+  },
+  {
+    "id": 3146,
+    "name": "Hextech Gunblade",
+    "kind": "AP"
+  },
+  {
+    "id": 3147,
+    "name": "Haunting Guise",
+    "kind": "AP"
+  },
+  {
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "kind": "AP"
+  },
+  {
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "kind": "AD"
+  },
+  {
+    "id": 3155,
+    "name": "Hexdrinker",
+    "kind": "AD"
+  },
+  {
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "kind": "AP"
+  },
+  {
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "kind": "AP"
+  },
+  {
+    "id": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "kind": "Boots"
+  },
+  {
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "kind": "AP"
+  },
+  {
+    "id": 3165,
+    "name": "Morellonomicon",
+    "kind": "AP"
+  },
+  {
+    "id": 3168,
+    "name": "Immortal Path",
+    "kind": "Boots"
+  },
+  {
+    "id": 3170,
+    "name": "Swiftmarch",
+    "kind": "Boots"
+  },
+  {
+    "id": 3171,
+    "name": "Crimson Lucidity",
+    "kind": "Boots"
+  },
+  {
+    "id": 3172,
+    "name": "Gunmetal Greaves",
+    "kind": "AD"
+  },
+  {
+    "id": 3173,
+    "name": "Chainlaced Crushers",
+    "kind": "Boots"
+  },
+  {
+    "id": 3174,
+    "name": "Armored Advance",
+    "kind": "Boots"
+  },
+  {
+    "id": 3175,
+    "name": "Spellslinger's Shoes",
+    "kind": "Boots"
+  },
+  {
+    "id": 3176,
+    "name": "Forever Forward",
+    "kind": "Boots"
+  },
+  {
+    "id": 3177,
+    "name": "Guardian's Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 3179,
+    "name": "Umbral Glaive",
+    "kind": "AP"
+  },
+  {
+    "id": 3181,
+    "name": "Hullbreaker",
+    "kind": "AD"
+  },
+  {
+    "id": 3184,
+    "name": "Guardian's Hammer",
+    "kind": "AD"
+  },
+  {
+    "id": 3190,
+    "name": "Locket of the Iron Solari",
+    "kind": "AP"
+  },
+  {
+    "id": 3193,
+    "name": "Gargoyle Stoneplate",
+    "kind": "AP"
+  },
+  {
+    "id": 3211,
+    "name": "Spectre's Cowl",
+    "kind": "Tank"
+  },
+  {
+    "id": 3222,
+    "name": "Mikael's Blessing",
+    "kind": "AP"
+  },
+  {
+    "id": 3302,
+    "name": "Terminus",
+    "kind": "AD"
+  },
+  {
+    "id": 3330,
+    "name": "Scarecrow Effigy",
+    "kind": "AD"
+  },
+  {
+    "id": 3340,
+    "name": "Stealth Ward",
+    "kind": "AD"
+  },
+  {
+    "id": 3348,
+    "name": "Arcane Sweeper",
+    "kind": "AD"
+  },
+  {
+    "id": 3349,
+    "name": "Lucent Singularity",
+    "kind": "AD"
+  },
+  {
+    "id": 3363,
+    "name": "Farsight Alteration",
+    "kind": "AD"
+  },
+  {
+    "id": 3364,
+    "name": "Oracle Lens",
+    "kind": "AD"
+  },
+  {
+    "id": 3398,
+    "name": "Small Party Favor",
+    "kind": "AD"
+  },
+  {
+    "id": 3399,
+    "name": "Party Favor",
+    "kind": "AD"
+  },
+  {
+    "id": 3400,
+    "name": "Your Cut",
+    "kind": "AD"
+  },
+  {
+    "id": 3430,
+    "name": "Rite Of Ruin",
+    "kind": "AP"
+  },
+  {
+    "id": 3504,
+    "name": "Ardent Censer",
+    "kind": "AP"
+  },
+  {
+    "id": 3508,
+    "name": "Essence Reaver",
+    "kind": "AP"
+  },
+  {
+    "id": 3513,
+    "name": "Eye of the Herald",
+    "kind": "AD"
+  },
+  {
+    "id": 3599,
+    "name": "Kalista's Black Spear",
+    "kind": "AD"
+  },
+  {
+    "id": 3600,
+    "name": "Kalista's Black Spear",
+    "kind": "AD"
+  },
+  {
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "kind": "Tank"
+  },
+  {
+    "id": 3748,
+    "name": "Titanic Hydra",
+    "kind": "AD"
+  },
+  {
+    "id": 3801,
+    "name": "Crystalline Bracer",
+    "kind": "Tank"
+  },
+  {
+    "id": 3802,
+    "name": "Lost Chapter",
+    "kind": "AP"
+  },
+  {
+    "id": 3803,
+    "name": "Catalyst of Aeons",
+    "kind": "AP"
+  },
+  {
+    "id": 3814,
+    "name": "Edge of Night",
+    "kind": "AD"
+  },
+  {
+    "id": 3850,
+    "name": "Spellthief's Edge",
+    "kind": "AP"
+  },
+  {
+    "id": 3851,
+    "name": "Frostfang",
+    "kind": "AP"
+  },
+  {
+    "id": 3853,
+    "name": "Shard of True Ice",
+    "kind": "AP"
+  },
+  {
+    "id": 3854,
+    "name": "Steel Shoulderguards",
+    "kind": "AD"
+  },
+  {
+    "id": 3855,
+    "name": "Runesteel Spaulders",
+    "kind": "Tank"
+  },
+  {
+    "id": 3857,
+    "name": "Pauldrons of Whiterock",
+    "kind": "Tank"
+  },
+  {
+    "id": 3858,
+    "name": "Relic Shield",
+    "kind": "AP"
+  },
+  {
+    "id": 3859,
+    "name": "Targon's Buckler",
+    "kind": "Tank"
+  },
+  {
+    "id": 3860,
+    "name": "Bulwark of the Mountain",
+    "kind": "Tank"
+  },
+  {
+    "id": 3862,
+    "name": "Spectral Sickle",
+    "kind": "AP"
+  },
+  {
+    "id": 3863,
+    "name": "Harrowing Crescent",
+    "kind": "AP"
+  },
+  {
+    "id": 3864,
+    "name": "Black Mist Scythe",
+    "kind": "AP"
+  },
+  {
+    "id": 3865,
+    "name": "World Atlas",
+    "kind": "AP"
+  },
+  {
+    "id": 3866,
+    "name": "Runic Compass",
+    "kind": "AP"
+  },
+  {
+    "id": 3867,
+    "name": "Bounty of Worlds",
+    "kind": "AP"
+  },
+  {
+    "id": 3869,
+    "name": "Celestial Opposition",
+    "kind": "AP"
+  },
+  {
+    "id": 3870,
+    "name": "Dream Maker",
+    "kind": "AP"
+  },
+  {
+    "id": 3871,
+    "name": "Zaz'Zak's Realmspike",
+    "kind": "AP"
+  },
+  {
+    "id": 3876,
+    "name": "Solstice Sleigh",
+    "kind": "AP"
+  },
+  {
+    "id": 3877,
+    "name": "Bloodsong",
+    "kind": "AP"
+  },
+  {
+    "id": 3901,
+    "name": "<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "kind": "AD"
+  },
+  {
+    "id": 3902,
+    "name": "<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "kind": "AD"
+  },
+  {
+    "id": 3903,
+    "name": "<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "kind": "AD"
+  },
+  {
+    "id": 3916,
+    "name": "Oblivion Orb",
+    "kind": "AP"
+  },
+  {
+    "id": 4003,
+    "name": "Lifeline",
+    "kind": "AD"
+  },
+  {
+    "id": 4004,
+    "name": "Spectral Cutlass",
+    "kind": "AD"
+  },
+  {
+    "id": 4005,
+    "name": "Imperial Mandate",
+    "kind": "AP"
+  },
+  {
+    "id": 4010,
+    "name": "Bloodletter's Curse",
+    "kind": "AP"
+  },
+  {
+    "id": 4011,
+    "name": "Sword of Blossoming Dawn",
+    "kind": "AP"
+  },
+  {
+    "id": 4012,
+    "name": "Sin Eater",
+    "kind": "Tank"
+  },
+  {
+    "id": 4013,
+    "name": "Lightning Braid",
+    "kind": "AP"
+  },
+  {
+    "id": 4014,
+    "name": "Frozen Mallet",
+    "kind": "AD"
+  },
+  {
+    "id": 4015,
+    "name": "Perplexity",
+    "kind": "AP"
+  },
+  {
+    "id": 4016,
+    "name": "Wordless Promise",
+    "kind": "AP"
+  },
+  {
+    "id": 4017,
+    "name": "Hellfire Hatchet",
+    "kind": "AD"
+  },
+  {
+    "id": 4401,
+    "name": "Force of Nature",
+    "kind": "Tank"
+  },
+  {
+    "id": 4402,
+    "name": "Innervating Locket",
+    "kind": "AP"
+  },
+  {
+    "id": 4403,
+    "name": "The Golden Spatula",
+    "kind": "AP"
+  },
+  {
+    "id": 4628,
+    "name": "Horizon Focus",
+    "kind": "AP"
+  },
+  {
+    "id": 4629,
+    "name": "Cosmic Drive",
+    "kind": "AP"
+  },
+  {
+    "id": 4630,
+    "name": "Blighting Jewel",
+    "kind": "AP"
+  },
+  {
+    "id": 4632,
+    "name": "Verdant Barrier",
+    "kind": "AP"
+  },
+  {
+    "id": 4633,
+    "name": "Riftmaker",
+    "kind": "AP"
+  },
+  {
+    "id": 4635,
+    "name": "Leeching Leer",
+    "kind": "AP"
+  },
+  {
+    "id": 4636,
+    "name": "Night Harvester",
+    "kind": "AP"
+  },
+  {
+    "id": 4637,
+    "name": "Demonic Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 4638,
+    "name": "Watchful Wardstone",
+    "kind": "AP"
+  },
+  {
+    "id": 4641,
+    "name": "Stirring Wardstone",
+    "kind": "AP"
+  },
+  {
+    "id": 4642,
+    "name": "Bandleglass Mirror",
+    "kind": "AP"
+  },
+  {
+    "id": 4643,
+    "name": "Vigilant Wardstone",
+    "kind": "AP"
+  },
+  {
+    "id": 4644,
+    "name": "Crown of the Shattered Queen",
+    "kind": "AP"
+  },
+  {
+    "id": 4645,
+    "name": "Shadowflame",
+    "kind": "AP"
+  },
+  {
+    "id": 4646,
+    "name": "Stormsurge",
+    "kind": "AP"
+  },
+  {
+    "id": 6029,
+    "name": "Ironspike Whip",
+    "kind": "AD"
+  },
+  {
+    "id": 6032,
+    "name": "Stat Bonus",
+    "kind": "AP"
+  },
+  {
+    "id": 6035,
+    "name": "Silvermere Dawn",
+    "kind": "AD"
+  },
+  {
+    "id": 6333,
+    "name": "Death's Dance",
+    "kind": "AP"
+  },
+  {
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "kind": "AP"
+  },
+  {
+    "id": 6610,
+    "name": "Sundered Sky",
+    "kind": "AP"
+  },
+  {
+    "id": 6616,
+    "name": "Staff of Flowing Water",
+    "kind": "AP"
+  },
+  {
+    "id": 6617,
+    "name": "Moonstone Renewer",
+    "kind": "AP"
+  },
+  {
+    "id": 6620,
+    "name": "Echoes of Helia",
+    "kind": "AP"
+  },
+  {
+    "id": 6621,
+    "name": "Dawncore",
+    "kind": "AP"
+  },
+  {
+    "id": 6630,
+    "name": "Goredrinker",
+    "kind": "AP"
+  },
+  {
+    "id": 6631,
+    "name": "Stridebreaker",
+    "kind": "AD"
+  },
+  {
+    "id": 6632,
+    "name": "Divine Sunderer",
+    "kind": "AP"
+  },
+  {
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "kind": "AP"
+  },
+  {
+    "id": 6655,
+    "name": "Luden's Echo",
+    "kind": "AP"
+  },
+  {
+    "id": 6656,
+    "name": "Everfrost",
+    "kind": "AP"
+  },
+  {
+    "id": 6657,
+    "name": "Rod of Ages",
+    "kind": "AP"
+  },
+  {
+    "id": 6660,
+    "name": "Bami's Cinder",
+    "kind": "AP"
+  },
+  {
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "kind": "AP"
+  },
+  {
+    "id": 6664,
+    "name": "Hollow Radiance",
+    "kind": "AP"
+  },
+  {
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "kind": "Tank"
+  },
+  {
+    "id": 6667,
+    "name": "Radiant Virtue",
+    "kind": "AP"
+  },
+  {
+    "id": 6670,
+    "name": "Noonquiver",
+    "kind": "AD"
+  },
+  {
+    "id": 6671,
+    "name": "Galeforce",
+    "kind": "AD"
+  },
+  {
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "kind": "AD"
+  },
+  {
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "kind": "AD"
+  },
+  {
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "kind": "AD"
+  },
+  {
+    "id": 6676,
+    "name": "The Collector",
+    "kind": "AD"
+  },
+  {
+    "id": 6677,
+    "name": "Rageknife",
+    "kind": "AD"
+  },
+  {
+    "id": 6690,
+    "name": "Rectrix",
+    "kind": "AD"
+  },
+  {
+    "id": 6691,
+    "name": "Duskblade of Draktharr",
+    "kind": "AP"
+  },
+  {
+    "id": 6692,
+    "name": "Eclipse",
+    "kind": "AP"
+  },
+  {
+    "id": 6693,
+    "name": "Prowler's Claw",
+    "kind": "AP"
+  },
+  {
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "kind": "AP"
+  },
+  {
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "kind": "AD"
+  },
+  {
+    "id": 6696,
+    "name": "Axiom Arc",
+    "kind": "AP"
+  },
+  {
+    "id": 6697,
+    "name": "Hubris",
+    "kind": "AP"
+  },
+  {
+    "id": 6698,
+    "name": "Profane Hydra",
+    "kind": "AP"
+  },
+  {
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "kind": "AP"
+  },
+  {
+    "id": 6700,
+    "name": "Shield of the Rakkor",
+    "kind": "AP"
+  },
+  {
+    "id": 6701,
+    "name": "Opportunity",
+    "kind": "AD"
+  },
+  {
+    "id": 6702,
+    "name": "Scouting Ahead",
+    "kind": "AD"
+  },
+  {
+    "id": 7050,
+    "name": "Gangplank Placeholder",
+    "kind": "AD"
+  },
+  {
+    "id": 8001,
+    "name": "Anathema's Chains",
+    "kind": "AP"
+  },
+  {
+    "id": 8010,
+    "name": "Bloodletter's Curse",
+    "kind": "AP"
+  },
+  {
+    "id": 8020,
+    "name": "Abyssal Mask",
+    "kind": "AP"
+  },
+  {
+    "id": 9168,
+    "name": "Locked Weapon Slot",
+    "kind": "AD"
+  },
+  {
+    "id": 9171,
+    "name": "Cyclonic Slicers",
+    "kind": "AD"
+  },
+  {
+    "id": 9172,
+    "name": "YuumiBot",
+    "kind": "AD"
+  },
+  {
+    "id": 9173,
+    "name": "Radiant Field",
+    "kind": "AD"
+  },
+  {
+    "id": 9174,
+    "name": "Statikk Sword",
+    "kind": "AD"
+  },
+  {
+    "id": 9175,
+    "name": "Lioness's Lament",
+    "kind": "AD"
+  },
+  {
+    "id": 9176,
+    "name": "Gatling Bunny-Guns",
+    "kind": "AD"
+  },
+  {
+    "id": 9177,
+    "name": "Searing Shortbow",
+    "kind": "AD"
+  },
+  {
+    "id": 9178,
+    "name": "The Annihilator",
+    "kind": "AD"
+  },
+  {
+    "id": 9179,
+    "name": "Battle Bunny Crossbow",
+    "kind": "AD"
+  },
+  {
+    "id": 9180,
+    "name": "UwU Blaster",
+    "kind": "AD"
+  },
+  {
+    "id": 9181,
+    "name": "Vortex Glove",
+    "kind": "AD"
+  },
+  {
+    "id": 9183,
+    "name": "Blade-o-rang",
+    "kind": "AD"
+  },
+  {
+    "id": 9184,
+    "name": "Bunny Mega-Blast",
+    "kind": "AD"
+  },
+  {
+    "id": 9185,
+    "name": "Anti-Shark Sea Mine",
+    "kind": "AD"
+  },
+  {
+    "id": 9187,
+    "name": "T.I.B.B.E.R.S",
+    "kind": "AD"
+  },
+  {
+    "id": 9188,
+    "name": "Ani-Mines",
+    "kind": "AD"
+  },
+  {
+    "id": 9189,
+    "name": "Final City Transit",
+    "kind": "AD"
+  },
+  {
+    "id": 9190,
+    "name": "Echoing Batblades",
+    "kind": "AD"
+  },
+  {
+    "id": 9192,
+    "name": "Paw Print Poisoner",
+    "kind": "AD"
+  },
+  {
+    "id": 9193,
+    "name": "Iceblast Armor",
+    "kind": "AD"
+  },
+  {
+    "id": 9271,
+    "name": "Unceasing Cyclone",
+    "kind": "AD"
+  },
+  {
+    "id": 9272,
+    "name": "YuumiBot_Final_FINAL",
+    "kind": "AD"
+  },
+  {
+    "id": 9273,
+    "name": "Explosive Embrace",
+    "kind": "AD"
+  },
+  {
+    "id": 9274,
+    "name": "Prumbis's Electrocarver",
+    "kind": "AD"
+  },
+  {
+    "id": 9275,
+    "name": "Enveloping Light",
+    "kind": "AD"
+  },
+  {
+    "id": 9276,
+    "name": "Double Bun-Bun Barrage",
+    "kind": "AD"
+  },
+  {
+    "id": 9277,
+    "name": "Evolved Embershot",
+    "kind": "AD"
+  },
+  {
+    "id": 9278,
+    "name": "Animapocalypse",
+    "kind": "AD"
+  },
+  {
+    "id": 9279,
+    "name": "Bunny Prime Ballista",
+    "kind": "AD"
+  },
+  {
+    "id": 9280,
+    "name": "OwO Blaster",
+    "kind": "AD"
+  },
+  {
+    "id": 9281,
+    "name": "Tempest's Gauntlet",
+    "kind": "AD"
+  },
+  {
+    "id": 9283,
+    "name": "Quad-o-rang",
+    "kind": "AD"
+  },
+  {
+    "id": 9284,
+    "name": "Rapid Rabbit Raindown",
+    "kind": "AD"
+  },
+  {
+    "id": 9285,
+    "name": "Neverending Mobstomper",
+    "kind": "AD"
+  },
+  {
+    "id": 9287,
+    "name": "T.I.B.B.E.R.S (B.E.E.G Edition)",
+    "kind": "AD"
+  },
+  {
+    "id": 9288,
+    "name": "Jinx's Tri-Namite",
+    "kind": "AD"
+  },
+  {
+    "id": 9289,
+    "name": "FC Limited Express",
+    "kind": "AD"
+  },
+  {
+    "id": 9290,
+    "name": "Vayne's Chromablades",
+    "kind": "AD"
+  },
+  {
+    "id": 9292,
+    "name": "Bearfoot Chem-Dispenser",
+    "kind": "AD"
+  },
+  {
+    "id": 9293,
+    "name": "Deep Freeze",
+    "kind": "AD"
+  },
+  {
+    "id": 9300,
+    "name": "Meow Meow",
+    "kind": "AD"
+  },
+  {
+    "id": 9301,
+    "name": "Shield Slam",
+    "kind": "AD"
+  },
+  {
+    "id": 9302,
+    "name": "Sound Wave",
+    "kind": "AD"
+  },
+  {
+    "id": 9303,
+    "name": "Pillory Swipe",
+    "kind": "AD"
+  },
+  {
+    "id": 9304,
+    "name": "Steel Tempest",
+    "kind": "AD"
+  },
+  {
+    "id": 9305,
+    "name": "Tentacle Slam",
+    "kind": "AD"
+  },
+  {
+    "id": 9306,
+    "name": "Winged Dagger",
+    "kind": "AD"
+  },
+  {
+    "id": 9307,
+    "name": "Guiding Hex",
+    "kind": "AD"
+  },
+  {
+    "id": 9308,
+    "name": "Bunny Hop",
+    "kind": "AD"
+  },
+  {
+    "id": 9400,
+    "name": "Battle Cat Barrage",
+    "kind": "AD"
+  },
+  {
+    "id": 9401,
+    "name": "Light of the Lion",
+    "kind": "AD"
+  },
+  {
+    "id": 9402,
+    "name": "Anima Echo",
+    "kind": "AD"
+  },
+  {
+    "id": 9403,
+    "name": "Savage Slice",
+    "kind": "AD"
+  },
+  {
+    "id": 9404,
+    "name": "Wandering Storms",
+    "kind": "AD"
+  },
+  {
+    "id": 9405,
+    "name": "Grizzly Smash",
+    "kind": "AD"
+  },
+  {
+    "id": 9406,
+    "name": "Lover's Ricochet",
+    "kind": "AD"
+  },
+  {
+    "id": 9407,
+    "name": "Hopped-Up Hex",
+    "kind": "AD"
+  },
+  {
+    "id": 9408,
+    "name": "Carrot Crash",
+    "kind": "AD"
+  },
+  {
+    "id": 123430,
+    "name": "Rite of Ruin",
+    "kind": "AP"
+  },
+  {
+    "id": 124011,
+    "name": "Sword of Blossoming Dawn",
+    "kind": "AP"
+  },
+  {
+    "id": 126697,
+    "name": "Hubris",
+    "kind": "AP"
+  },
+  {
+    "id": 220000,
+    "name": "Stat Bonus",
+    "kind": "AP"
+  },
+  {
+    "id": 220001,
+    "name": "Legendary Fighter Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220002,
+    "name": "Legendary Marksman Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220003,
+    "name": "Legendary Assassin Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220004,
+    "name": "Legendary Mage Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220005,
+    "name": "Legendary Tank Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220006,
+    "name": "Legendary Support Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220007,
+    "name": "Prismatic Item",
+    "kind": "AD"
+  },
+  {
+    "id": 220008,
+    "name": "Anvil Voucher",
+    "kind": "AD"
+  },
+  {
+    "id": 220009,
+    "name": "Gold Stat Anvil Voucher",
+    "kind": "AD"
+  },
+  {
+    "id": 220010,
+    "name": "Prismatic Stat Voucher",
+    "kind": "AD"
+  },
+  {
+    "id": 220011,
+    "name": "Bravery Voucher",
+    "kind": "AD"
+  },
+  {
+    "id": 220012,
+    "name": "Shardblade",
+    "kind": "AD"
+  },
+  {
+    "id": 220013,
+    "name": "Poro-Snax",
+    "kind": "AD"
+  },
+  {
+    "id": 221011,
+    "name": "Giant's Belt",
+    "kind": "Tank"
+  },
+  {
+    "id": 221026,
+    "name": "Blasting Wand",
+    "kind": "AP"
+  },
+  {
+    "id": 221031,
+    "name": "Chain Vest",
+    "kind": "Tank"
+  },
+  {
+    "id": 221038,
+    "name": "B. F. Sword",
+    "kind": "AD"
+  },
+  {
+    "id": 221043,
+    "name": "Recurve Bow",
+    "kind": "AD"
+  },
+  {
+    "id": 221053,
+    "name": "Vampiric Scepter",
+    "kind": "AD"
+  },
+  {
+    "id": 221057,
+    "name": "Negatron Cloak",
+    "kind": "Tank"
+  },
+  {
+    "id": 221058,
+    "name": "Needlessly Large Rod",
+    "kind": "AP"
+  },
+  {
+    "id": 222022,
+    "name": "Glowing Mote",
+    "kind": "AD"
+  },
+  {
+    "id": 222051,
+    "name": "Guardian's Horn",
+    "kind": "Tank"
+  },
+  {
+    "id": 222065,
+    "name": "Shurelya's Battlesong",
+    "kind": "AP"
+  },
+  {
+    "id": 222141,
+    "name": "Cappa Juice",
+    "kind": "AD"
+  },
+  {
+    "id": 222502,
+    "name": "Unending Despair",
+    "kind": "AP"
+  },
+  {
+    "id": 222503,
+    "name": "Blackfire Torch",
+    "kind": "AP"
+  },
+  {
+    "id": 222504,
+    "name": "Kaenic Rookern",
+    "kind": "Tank"
+  },
+  {
+    "id": 222510,
+    "name": "Dusk and Dawn",
+    "kind": "AP"
+  },
+  {
+    "id": 222512,
+    "name": "Fiendhunter Bolts",
+    "kind": "AP"
+  },
+  {
+    "id": 222517,
+    "name": "Endless Hunger",
+    "kind": "AP"
+  },
+  {
+    "id": 222522,
+    "name": "Actualizer",
+    "kind": "AP"
+  },
+  {
+    "id": 222523,
+    "name": "Hexoptics C44",
+    "kind": "AD"
+  },
+  {
+    "id": 222524,
+    "name": "Bandlepipes",
+    "kind": "AP"
+  },
+  {
+    "id": 222525,
+    "name": "Protoplasm Harness",
+    "kind": "AP"
+  },
+  {
+    "id": 222526,
+    "name": "Whispering Circlet",
+    "kind": "AP"
+  },
+  {
+    "id": 222530,
+    "name": "Diadem of Songs",
+    "kind": "AP"
+  },
+  {
+    "id": 223001,
+    "name": "Evenshroud",
+    "kind": "AP"
+  },
+  {
+    "id": 223002,
+    "name": "Trailblazer",
+    "kind": "Tank"
+  },
+  {
+    "id": 223003,
+    "name": "Archangel's Staff",
+    "kind": "AP"
+  },
+  {
+    "id": 223004,
+    "name": "Manamune",
+    "kind": "AP"
+  },
+  {
+    "id": 223005,
+    "name": "Ghostcrawlers",
+    "kind": "Boots"
+  },
+  {
+    "id": 223006,
+    "name": "Berserker's Greaves",
+    "kind": "Boots"
+  },
+  {
+    "id": 223008,
+    "name": "Gluttonous Greaves",
+    "kind": "Boots"
+  },
+  {
+    "id": 223009,
+    "name": "Boots of Swiftness",
+    "kind": "Boots"
+  },
+  {
+    "id": 223011,
+    "name": "Chemtech Putrifier",
+    "kind": "AP"
+  },
+  {
+    "id": 223020,
+    "name": "Sorcerer's Shoes",
+    "kind": "Boots"
+  },
+  {
+    "id": 223026,
+    "name": "Guardian Angel",
+    "kind": "AD"
+  },
+  {
+    "id": 223031,
+    "name": "Infinity Edge",
+    "kind": "AD"
+  },
+  {
+    "id": 223032,
+    "name": "Yun Tal Wildarrows",
+    "kind": "AD"
+  },
+  {
+    "id": 223033,
+    "name": "Mortal Reminder",
+    "kind": "AD"
+  },
+  {
+    "id": 223036,
+    "name": "Lord Dominik's Regards",
+    "kind": "AD"
+  },
+  {
+    "id": 223039,
+    "name": "Atma's Reckoning",
+    "kind": "AD"
+  },
+  {
+    "id": 223040,
+    "name": "Seraph's Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 223042,
+    "name": "Muramana",
+    "kind": "AP"
+  },
+  {
+    "id": 223046,
+    "name": "Phantom Dancer",
+    "kind": "AD"
+  },
+  {
+    "id": 223047,
+    "name": "Plated Steelcaps",
+    "kind": "Boots"
+  },
+  {
+    "id": 223050,
+    "name": "Zeke's Convergence",
+    "kind": "AP"
+  },
+  {
+    "id": 223053,
+    "name": "Sterak's Gage",
+    "kind": "AD"
+  },
+  {
+    "id": 223057,
+    "name": "Sheen",
+    "kind": "AP"
+  },
+  {
+    "id": 223065,
+    "name": "Spirit Visage",
+    "kind": "AP"
+  },
+  {
+    "id": 223067,
+    "name": "Kindlegem",
+    "kind": "AP"
+  },
+  {
+    "id": 223068,
+    "name": "Sunfire Aegis",
+    "kind": "AP"
+  },
+  {
+    "id": 223069,
+    "name": "Void Immolation",
+    "kind": "AP"
+  },
+  {
+    "id": 223071,
+    "name": "Black Cleaver",
+    "kind": "AP"
+  },
+  {
+    "id": 223072,
+    "name": "Bloodthirster",
+    "kind": "AD"
+  },
+  {
+    "id": 223073,
+    "name": "Experimental Hexplate",
+    "kind": "AP"
+  },
+  {
+    "id": 223074,
+    "name": "Ravenous Hydra",
+    "kind": "AP"
+  },
+  {
+    "id": 223075,
+    "name": "Thornmail",
+    "kind": "Tank"
+  },
+  {
+    "id": 223078,
+    "name": "Trinity Force",
+    "kind": "AP"
+  },
+  {
+    "id": 223084,
+    "name": "Heartsteel",
+    "kind": "Tank"
+  },
+  {
+    "id": 223085,
+    "name": "Runaan's Hurricane",
+    "kind": "AD"
+  },
+  {
+    "id": 223087,
+    "name": "Statikk Shiv",
+    "kind": "AD"
+  },
+  {
+    "id": 223089,
+    "name": "Rabadon's Deathcap",
+    "kind": "AP"
+  },
+  {
+    "id": 223091,
+    "name": "Wit's End",
+    "kind": "AD"
+  },
+  {
+    "id": 223094,
+    "name": "Rapid Firecannon",
+    "kind": "AD"
+  },
+  {
+    "id": 223095,
+    "name": "Stormrazor",
+    "kind": "AD"
+  },
+  {
+    "id": 223100,
+    "name": "Lich Bane",
+    "kind": "AP"
+  },
+  {
+    "id": 223102,
+    "name": "Banshee's Veil",
+    "kind": "AP"
+  },
+  {
+    "id": 223105,
+    "name": "Aegis of the Legion",
+    "kind": "AP"
+  },
+  {
+    "id": 223107,
+    "name": "Redemption",
+    "kind": "AP"
+  },
+  {
+    "id": 223109,
+    "name": "Knight's Vow",
+    "kind": "AP"
+  },
+  {
+    "id": 223110,
+    "name": "Frozen Heart",
+    "kind": "AP"
+  },
+  {
+    "id": 223111,
+    "name": "Mercury's Treads",
+    "kind": "Boots"
+  },
+  {
+    "id": 223112,
+    "name": "Guardian's Orb",
+    "kind": "AP"
+  },
+  {
+    "id": 223115,
+    "name": "Nashor's Tooth",
+    "kind": "AP"
+  },
+  {
+    "id": 223116,
+    "name": "Rylai's Crystal Scepter",
+    "kind": "AP"
+  },
+  {
+    "id": 223118,
+    "name": "Malignance",
+    "kind": "AP"
+  },
+  {
+    "id": 223119,
+    "name": "Winter's Approach",
+    "kind": "AP"
+  },
+  {
+    "id": 223121,
+    "name": "Fimbulwinter",
+    "kind": "AP"
+  },
+  {
+    "id": 223124,
+    "name": "Guinsoo's Rageblade",
+    "kind": "AP"
+  },
+  {
+    "id": 223135,
+    "name": "Void Staff",
+    "kind": "AP"
+  },
+  {
+    "id": 223137,
+    "name": "Cryptbloom",
+    "kind": "AP"
+  },
+  {
+    "id": 223139,
+    "name": "Mercurial Scimitar",
+    "kind": "AD"
+  },
+  {
+    "id": 223142,
+    "name": "Youmuu's Ghostblade",
+    "kind": "AD"
+  },
+  {
+    "id": 223143,
+    "name": "Randuin's Omen",
+    "kind": "Tank"
+  },
+  {
+    "id": 223146,
+    "name": "Hextech Gunblade",
+    "kind": "AP"
+  },
+  {
+    "id": 223152,
+    "name": "Hextech Rocketbelt",
+    "kind": "AP"
+  },
+  {
+    "id": 223153,
+    "name": "Blade of The Ruined King",
+    "kind": "AD"
+  },
+  {
+    "id": 223156,
+    "name": "Maw of Malmortius",
+    "kind": "AP"
+  },
+  {
+    "id": 223157,
+    "name": "Zhonya's Hourglass",
+    "kind": "AP"
+  },
+  {
+    "id": 223158,
+    "name": "Ionian Boots of Lucidity",
+    "kind": "Boots"
+  },
+  {
+    "id": 223161,
+    "name": "Spear of Shojin",
+    "kind": "AP"
+  },
+  {
+    "id": 223165,
+    "name": "Morellonomicon",
+    "kind": "AP"
+  },
+  {
+    "id": 223172,
+    "name": "Zephyr",
+    "kind": "AD"
+  },
+  {
+    "id": 223177,
+    "name": "Guardian's Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 223181,
+    "name": "Hullbreaker",
+    "kind": "AD"
+  },
+  {
+    "id": 223184,
+    "name": "Guardian's Hammer",
+    "kind": "AD"
+  },
+  {
+    "id": 223185,
+    "name": "Guardian's Dirk",
+    "kind": "AD"
+  },
+  {
+    "id": 223190,
+    "name": "Locket of the Iron Solari",
+    "kind": "AP"
+  },
+  {
+    "id": 223193,
+    "name": "Gargoyle Stoneplate",
+    "kind": "AP"
+  },
+  {
+    "id": 223222,
+    "name": "Mikael's Blessing",
+    "kind": "AP"
+  },
+  {
+    "id": 223302,
+    "name": "Terminus",
+    "kind": "AD"
+  },
+  {
+    "id": 223504,
+    "name": "Ardent Censer",
+    "kind": "AP"
+  },
+  {
+    "id": 223508,
+    "name": "Essence Reaver",
+    "kind": "AP"
+  },
+  {
+    "id": 223742,
+    "name": "Dead Man's Plate",
+    "kind": "Tank"
+  },
+  {
+    "id": 223748,
+    "name": "Titanic Hydra",
+    "kind": "AD"
+  },
+  {
+    "id": 223814,
+    "name": "Edge of Night",
+    "kind": "AD"
+  },
+  {
+    "id": 224004,
+    "name": "Spectral Cutlass",
+    "kind": "AD"
+  },
+  {
+    "id": 224005,
+    "name": "Imperial Mandate",
+    "kind": "AP"
+  },
+  {
+    "id": 224401,
+    "name": "Force of Nature",
+    "kind": "Tank"
+  },
+  {
+    "id": 224403,
+    "name": "The Golden Spatula",
+    "kind": "AP"
+  },
+  {
+    "id": 224628,
+    "name": "Horizon Focus",
+    "kind": "AP"
+  },
+  {
+    "id": 224629,
+    "name": "Cosmic Drive",
+    "kind": "AP"
+  },
+  {
+    "id": 224633,
+    "name": "Riftmaker",
+    "kind": "AP"
+  },
+  {
+    "id": 224636,
+    "name": "Night Harvester",
+    "kind": "AP"
+  },
+  {
+    "id": 224637,
+    "name": "Demonic Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 224644,
+    "name": "Crown of the Shattered Queen",
+    "kind": "AP"
+  },
+  {
+    "id": 224645,
+    "name": "Shadowflame",
+    "kind": "AP"
+  },
+  {
+    "id": 224646,
+    "name": "Stormsurge",
+    "kind": "AP"
+  },
+  {
+    "id": 226035,
+    "name": "Silvermere Dawn",
+    "kind": "AD"
+  },
+  {
+    "id": 226333,
+    "name": "Death's Dance",
+    "kind": "AP"
+  },
+  {
+    "id": 226609,
+    "name": "Chempunk Chainsword",
+    "kind": "AP"
+  },
+  {
+    "id": 226610,
+    "name": "Sundered Sky",
+    "kind": "AP"
+  },
+  {
+    "id": 226616,
+    "name": "Staff of Flowing Water",
+    "kind": "AP"
+  },
+  {
+    "id": 226617,
+    "name": "Moonstone Renewer",
+    "kind": "AP"
+  },
+  {
+    "id": 226620,
+    "name": "Echoes of Helia",
+    "kind": "AP"
+  },
+  {
+    "id": 226621,
+    "name": "Dawncore",
+    "kind": "AP"
+  },
+  {
+    "id": 226630,
+    "name": "Goredrinker",
+    "kind": "AP"
+  },
+  {
+    "id": 226631,
+    "name": "Stridebreaker",
+    "kind": "AD"
+  },
+  {
+    "id": 226632,
+    "name": "Divine Sunderer",
+    "kind": "AP"
+  },
+  {
+    "id": 226653,
+    "name": "Liandry's Anguish",
+    "kind": "AP"
+  },
+  {
+    "id": 226655,
+    "name": "Luden's Echo",
+    "kind": "AP"
+  },
+  {
+    "id": 226656,
+    "name": "Everfrost",
+    "kind": "AP"
+  },
+  {
+    "id": 226657,
+    "name": "Rod of Ages",
+    "kind": "AP"
+  },
+  {
+    "id": 226662,
+    "name": "Iceborn Gauntlet",
+    "kind": "AP"
+  },
+  {
+    "id": 226664,
+    "name": "Hollow Radiance",
+    "kind": "AP"
+  },
+  {
+    "id": 226665,
+    "name": "Jak'Sho, The Protean",
+    "kind": "Tank"
+  },
+  {
+    "id": 226667,
+    "name": "Radiant Virtue",
+    "kind": "AP"
+  },
+  {
+    "id": 226671,
+    "name": "Galeforce",
+    "kind": "AD"
+  },
+  {
+    "id": 226672,
+    "name": "Kraken Slayer",
+    "kind": "AD"
+  },
+  {
+    "id": 226673,
+    "name": "Immortal Shieldbow",
+    "kind": "AD"
+  },
+  {
+    "id": 226675,
+    "name": "Navori Flickerblades",
+    "kind": "AD"
+  },
+  {
+    "id": 226676,
+    "name": "The Collector",
+    "kind": "AD"
+  },
+  {
+    "id": 226691,
+    "name": "Duskblade of Draktharr",
+    "kind": "AP"
+  },
+  {
+    "id": 226692,
+    "name": "Eclipse",
+    "kind": "AP"
+  },
+  {
+    "id": 226693,
+    "name": "Prowler's Claw",
+    "kind": "AP"
+  },
+  {
+    "id": 226694,
+    "name": "Serylda's Grudge",
+    "kind": "AP"
+  },
+  {
+    "id": 226695,
+    "name": "Serpent's Fang",
+    "kind": "AD"
+  },
+  {
+    "id": 226696,
+    "name": "Axiom Arc",
+    "kind": "AP"
+  },
+  {
+    "id": 226697,
+    "name": "Hubris",
+    "kind": "AP"
+  },
+  {
+    "id": 226698,
+    "name": "Profane Hydra",
+    "kind": "AP"
+  },
+  {
+    "id": 226699,
+    "name": "Voltaic Cyclosword",
+    "kind": "AP"
+  },
+  {
+    "id": 226701,
+    "name": "Opportunity",
+    "kind": "AD"
+  },
+  {
+    "id": 228001,
+    "name": "Anathema's Chains",
+    "kind": "AP"
+  },
+  {
+    "id": 228002,
+    "name": "Wooglet's Witchcap",
+    "kind": "AP"
+  },
+  {
+    "id": 228003,
+    "name": "Deathblade",
+    "kind": "AD"
+  },
+  {
+    "id": 228004,
+    "name": "Adaptive Helm",
+    "kind": "Tank"
+  },
+  {
+    "id": 228005,
+    "name": "Obsidian Cleaver",
+    "kind": "AP"
+  },
+  {
+    "id": 228006,
+    "name": "Sanguine Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 228008,
+    "name": "Runeglaive",
+    "kind": "AP"
+  },
+  {
+    "id": 228009,
+    "name": "Multitool",
+    "kind": "AD"
+  },
+  {
+    "id": 228020,
+    "name": "Abyssal Mask",
+    "kind": "AP"
+  },
+  {
+    "id": 322065,
+    "name": "Shurelya's Battlesong",
+    "kind": "AP"
+  },
+  {
+    "id": 322526,
+    "name": "Whispering Circlet",
+    "kind": "AP"
+  },
+  {
+    "id": 322530,
+    "name": "Diadem of Songs",
+    "kind": "AP"
+  },
+  {
+    "id": 323002,
+    "name": "Trailblazer",
+    "kind": "Tank"
+  },
+  {
+    "id": 323003,
+    "name": "Archangel's Staff",
+    "kind": "AP"
+  },
+  {
+    "id": 323004,
+    "name": "Manamune",
+    "kind": "AP"
+  },
+  {
+    "id": 323040,
+    "name": "Seraph's Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 323042,
+    "name": "Muramana",
+    "kind": "AP"
+  },
+  {
+    "id": 323050,
+    "name": "Zeke's Convergence",
+    "kind": "AP"
+  },
+  {
+    "id": 323070,
+    "name": "Tear of the Goddess",
+    "kind": "AP"
+  },
+  {
+    "id": 323075,
+    "name": "Thornmail",
+    "kind": "Tank"
+  },
+  {
+    "id": 323107,
+    "name": "Redemption",
+    "kind": "AP"
+  },
+  {
+    "id": 323109,
+    "name": "Knight's Vow",
+    "kind": "AP"
+  },
+  {
+    "id": 323110,
+    "name": "Frozen Heart",
+    "kind": "AP"
+  },
+  {
+    "id": 323119,
+    "name": "Winter's Approach",
+    "kind": "AP"
+  },
+  {
+    "id": 323121,
+    "name": "Fimbulwinter",
+    "kind": "AP"
+  },
+  {
+    "id": 323190,
+    "name": "Locket of the Iron Solari",
+    "kind": "AP"
+  },
+  {
+    "id": 323222,
+    "name": "Mikael's Blessing",
+    "kind": "AP"
+  },
+  {
+    "id": 323504,
+    "name": "Ardent Censer",
+    "kind": "AP"
+  },
+  {
+    "id": 324005,
+    "name": "Imperial Mandate",
+    "kind": "AP"
+  },
+  {
+    "id": 326616,
+    "name": "Staff of Flowing Water",
+    "kind": "AP"
+  },
+  {
+    "id": 326617,
+    "name": "Moonstone Renewer",
+    "kind": "AP"
+  },
+  {
+    "id": 326620,
+    "name": "Echoes of Helia",
+    "kind": "AP"
+  },
+  {
+    "id": 326621,
+    "name": "Dawncore",
+    "kind": "AP"
+  },
+  {
+    "id": 326657,
+    "name": "Rod of Ages",
+    "kind": "AP"
+  },
+  {
+    "id": 328020,
+    "name": "Abyssal Mask",
+    "kind": "AP"
+  },
+  {
+    "id": 443054,
+    "name": "Darksteel Talons",
+    "kind": "AD"
+  },
+  {
+    "id": 443055,
+    "name": "Fulmination",
+    "kind": "AD"
+  },
+  {
+    "id": 443056,
+    "name": "Demon King's Crown",
+    "kind": "AP"
+  },
+  {
+    "id": 443058,
+    "name": "Shield of Molten Stone",
+    "kind": "Tank"
+  },
+  {
+    "id": 443059,
+    "name": "Cloak of Starry Night",
+    "kind": "Tank"
+  },
+  {
+    "id": 443060,
+    "name": "Sword of the Divine",
+    "kind": "AP"
+  },
+  {
+    "id": 443061,
+    "name": "Force Of Entropy",
+    "kind": "AD"
+  },
+  {
+    "id": 443062,
+    "name": "Sanguine Gift",
+    "kind": "AP"
+  },
+  {
+    "id": 443063,
+    "name": "Eleisa's Miracle",
+    "kind": "AP"
+  },
+  {
+    "id": 443064,
+    "name": "Talisman Of Ascension",
+    "kind": "AP"
+  },
+  {
+    "id": 443069,
+    "name": "Hamstringer",
+    "kind": "AD"
+  },
+  {
+    "id": 443079,
+    "name": "Turbo Chemtank",
+    "kind": "Tank"
+  },
+  {
+    "id": 443080,
+    "name": "Twin Mask",
+    "kind": "AP"
+  },
+  {
+    "id": 443081,
+    "name": "Hexbolt Companion",
+    "kind": "AD"
+  },
+  {
+    "id": 443083,
+    "name": "Warmog's Armor",
+    "kind": "Tank"
+  },
+  {
+    "id": 443090,
+    "name": "Reaper's Toll",
+    "kind": "AP"
+  },
+  {
+    "id": 443193,
+    "name": "Gargoyle Stoneplate",
+    "kind": "AP"
+  },
+  {
+    "id": 444636,
+    "name": "Night Harvester",
+    "kind": "AP"
+  },
+  {
+    "id": 444637,
+    "name": "Demonic Embrace",
+    "kind": "AP"
+  },
+  {
+    "id": 444644,
+    "name": "Crown of the Shattered Queen",
+    "kind": "AP"
+  },
+  {
+    "id": 446632,
+    "name": "Divine Sunderer",
+    "kind": "AP"
+  },
+  {
+    "id": 446656,
+    "name": "Everfrost",
+    "kind": "AP"
+  },
+  {
+    "id": 446667,
+    "name": "Radiant Virtue",
+    "kind": "AP"
+  },
+  {
+    "id": 446671,
+    "name": "Galeforce",
+    "kind": "AD"
+  },
+  {
+    "id": 446691,
+    "name": "Duskblade of Draktharr",
+    "kind": "AP"
+  },
+  {
+    "id": 446693,
+    "name": "Prowler's Claw",
+    "kind": "AP"
+  },
+  {
+    "id": 447100,
+    "name": "Mirage Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 447101,
+    "name": "Gambler's Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 447102,
+    "name": "Reality Fracture",
+    "kind": "AP"
+  },
+  {
+    "id": 447103,
+    "name": "Hemomancer's Helm",
+    "kind": "AP"
+  },
+  {
+    "id": 447104,
+    "name": "Innervating Locket",
+    "kind": "AP"
+  },
+  {
+    "id": 447105,
+    "name": "Empyrean Promise",
+    "kind": "AP"
+  },
+  {
+    "id": 447106,
+    "name": "Dragonheart",
+    "kind": "AP"
+  },
+  {
+    "id": 447107,
+    "name": "Decapitator",
+    "kind": "AP"
+  },
+  {
+    "id": 447108,
+    "name": "Runecarver",
+    "kind": "AP"
+  },
+  {
+    "id": 447109,
+    "name": "Cruelty",
+    "kind": "AP"
+  },
+  {
+    "id": 447110,
+    "name": "Moonflair Spellblade",
+    "kind": "AP"
+  },
+  {
+    "id": 447111,
+    "name": "Overlord's Bloodmail",
+    "kind": "AD"
+  },
+  {
+    "id": 447112,
+    "name": "Flesheater",
+    "kind": "AP"
+  },
+  {
+    "id": 447113,
+    "name": "Detonation Orb",
+    "kind": "AP"
+  },
+  {
+    "id": 447114,
+    "name": "Reverberation",
+    "kind": "AD"
+  },
+  {
+    "id": 447115,
+    "name": "Regicide",
+    "kind": "AD"
+  },
+  {
+    "id": 447116,
+    "name": "Kinkou Jitte",
+    "kind": "AP"
+  },
+  {
+    "id": 447118,
+    "name": "Pyromancer's Cloak",
+    "kind": "AP"
+  },
+  {
+    "id": 447119,
+    "name": "Lightning Rod",
+    "kind": "AD"
+  },
+  {
+    "id": 447120,
+    "name": "Diamond-Tipped Spear",
+    "kind": "AD"
+  },
+  {
+    "id": 447121,
+    "name": "Twilight's Edge",
+    "kind": "AP"
+  },
+  {
+    "id": 447122,
+    "name": "Black Hole Gauntlet",
+    "kind": "AP"
+  },
+  {
+    "id": 447123,
+    "name": "Puppeteer",
+    "kind": "AP"
+  },
+  {
+    "id": 550001,
+    "name": "Healthbar Splash: Blue",
+    "kind": "Boots"
+  },
+  {
+    "id": 550002,
+    "name": "Healthbar Splash: Orange",
+    "kind": "Boots"
+  },
+  {
+    "id": 550003,
+    "name": "Healthbar Splash: Green",
+    "kind": "Boots"
+  },
+  {
+    "id": 550004,
+    "name": "Healthbar Splash: Pink",
+    "kind": "Boots"
+  },
+  {
+    "id": 550005,
+    "name": "Healthbar Cleanup: Reset Color",
+    "kind": "Boots"
+  },
+  {
+    "id": 550006,
+    "name": "Healthbar Splash: Rainbow",
+    "kind": "Boots"
+  },
+  {
+    "id": 550007,
+    "name": "Party Favor",
+    "kind": "Boots"
+  },
+  {
+    "id": 663039,
+    "name": "Atma's Reckoning",
+    "kind": "AD"
+  },
+  {
+    "id": 663056,
+    "name": "Demon King's Crown",
+    "kind": "AP"
+  },
+  {
+    "id": 663058,
+    "name": "Shield of Molten Stone",
+    "kind": "Tank"
+  },
+  {
+    "id": 663059,
+    "name": "Cloak of Starry Night",
+    "kind": "Tank"
+  },
+  {
+    "id": 663060,
+    "name": "Sword of the Divine",
+    "kind": "AP"
+  },
+  {
+    "id": 663064,
+    "name": "Veigar's Talisman of Ascension",
+    "kind": "AD"
+  },
+  {
+    "id": 663146,
+    "name": "Hextech Gunblade",
+    "kind": "AP"
+  },
+  {
+    "id": 663172,
+    "name": "Zephyr",
+    "kind": "AD"
+  },
+  {
+    "id": 663193,
+    "name": "Gargoyle Stoneplate",
+    "kind": "AP"
+  },
+  {
+    "id": 664011,
+    "name": "Sword of Blossoming Dawn",
+    "kind": "AP"
+  },
+  {
+    "id": 664403,
+    "name": "The Golden Spatula",
+    "kind": "AP"
+  },
+  {
+    "id": 664644,
+    "name": "Crown of the Shattered Queen",
+    "kind": "AP"
+  },
+  {
+    "id": 667101,
+    "name": "Gambler's Blade",
+    "kind": "AP"
+  },
+  {
+    "id": 667109,
+    "name": "Cruelty",
+    "kind": "AP"
+  },
+  {
+    "id": 667112,
+    "name": "Flesheater",
+    "kind": "AP"
+  },
+  {
+    "id": 667666,
+    "name": "The Collector",
+    "kind": "AD"
+  },
+  {
+    "id": 994403,
+    "name": "Golden Spatula",
+    "kind": "AP"
+  }
+]
