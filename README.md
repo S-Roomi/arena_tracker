@@ -1,9 +1,6 @@
 # Arena Tracker
 
-A stats site for **Arena**, the League of Legends game mode where 8 three-player
-subteams fight it out (`queueId 1700`, `gameMode "CHERRY"`, Rings of Wrath map
-`30`). It shows a
-featured player's summary, a champion tier list, and recent match history.
+A stats site for **Arena**, the League of Legends game mode. 
 
 Built with the [T3 Stack](https://create.t3.gg/):
 
@@ -11,22 +8,6 @@ Built with the [T3 Stack](https://create.t3.gg/):
 - **Tailwind CSS v4** + **shadcn/ui** (base-nova, neutral)
 - **tRPC** for the type-safe API layer
 - **Drizzle ORM** on **SQLite / libSQL**
-
-## Data
-
-All data is **mock data**, generated deterministically, but every payload
-conforms to Riot's official **Match-V5** response shape
-(`GET /lol/match/v5/matches/{matchId}`). Swapping the mock generator for real
-API calls requires no changes downstream.
-
-- `src/server/riot/types.ts` — typed subset of the Match-V5 DTOs (Arena fields:
-  `placement`, `playerSubteamId`, `playerAugment1..4`, …).
-- `src/server/riot/constants.ts` — champion + augment reference tables (the
-  static data you'd otherwise resolve from Data Dragon / Community Dragon).
-- `src/server/riot/mock.ts` — deterministic Arena match generator.
-- `src/server/db/schema.ts` — `arena_match` and `arena_participant` tables.
-- `src/server/api/routers/arena.ts` — tRPC procedures: `getSummary`,
-  `getChampionLeaderboard`, `getRecentMatches`.
 
 ## Getting started
 
