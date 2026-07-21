@@ -45,9 +45,4 @@ yarn-error.log*
 # idea files
 .idea
 
-# images
-public/champions
-# item icons
-public/items
-# augment icons
-public/augments
+

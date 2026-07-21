@@ -26,7 +26,14 @@ if (!url) {
   throw new Error("DATABASE_URL is not set (expected in .env).");
 }
 
-const db = drizzle(createClient({ url }), { schema });
+const db = drizzle(
+  createClient({
+    url,
+    authToken:
+      process.env.DATABASE_API_TOKEN ?? process.env.DATABASE_API_KEY,
+  }),
+  { schema },
+);
 
 async function seed() {
   const matches = generateMockMatches();

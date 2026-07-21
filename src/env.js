@@ -8,6 +8,9 @@ export const env = createEnv({
    */
   server: {
     DATABASE_URL: z.string().url(),
+    // Turso/libSQL auth token. It is only needed for remote databases; local
+    // SQLite URLs (for example `file:./db.sqlite`) do not require one.
+    DATABASE_API_TOKEN: z.string().optional(),
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
@@ -17,7 +20,7 @@ export const env = createEnv({
      * 24h. Optional so the app still builds/runs on the mock/demo data without
      * a key — the live sign-in flow throws a friendly error when it's missing.
      */
-    RIOT_API_KEY: z.string().optional(),
+    RIOT_API_KEY: z.string(),
   },
 
   /**
@@ -35,6 +38,9 @@ export const env = createEnv({
    */
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
+    // `DATABASE_API_KEY` is retained temporarily for existing local setups.
+    DATABASE_API_TOKEN:
+      process.env.DATABASE_API_TOKEN ?? process.env.DATABASE_API_KEY,
     NODE_ENV: process.env.NODE_ENV,
     RIOT_API_KEY: process.env.RIOT_API_KEY,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
