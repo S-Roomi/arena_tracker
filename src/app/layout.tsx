@@ -11,7 +11,7 @@ import { PlayerBar } from "./_components/player-bar";
 export const metadata: Metadata = {
   title: "Arena Tracker · League of Legends Arena stats",
   description:
-    "Champion tier lists, win rates and match history for the League of Legends Arena game mode (queue 1700).",
+    "Player Stats for League of Legends Arena game mode.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
