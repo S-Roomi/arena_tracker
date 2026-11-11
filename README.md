@@ -31,8 +31,6 @@ npm run db:seed        # optional: load demo data
 npm run dev
 ```
 
-The app runs at http://localhost:3000.
-
 ### Environment Variables
 
 | Variable             | Required | Description                                              |
