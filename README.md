@@ -12,10 +12,6 @@ A stats tracker for League of Legends Arena. Look up a player by Riot ID to see 
 - **Champion pages:** detailed stats, item builds, and augments for each champion
 - **Match history:** your recent games, showing placement, augments, and items
 
-## Tech Stack
-
-[Next.js 15](https://nextjs.org) · [tRPC](https://trpc.io) · [Drizzle ORM](https://orm.drizzle.team) · [Turso / libSQL](https://turso.tech) · [Tailwind CSS v4](https://tailwindcss.com) · [shadcn/ui](https://ui.shadcn.com)
-
 ## Getting Started
 
 ### Prerequisites
